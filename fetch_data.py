@@ -86,7 +86,10 @@ def data_count(hs_codes, date_end=None, extra=None):
     time.sleep(REQUEST_DELAY)
     r = requests.post(DATA_URL, headers=headers(), json=body, timeout=30)
     r.raise_for_status()
-    return int(r.json().get("count", 0))
+   data = r.json()
+    if isinstance(data, list):
+        return len(data)
+    return int(data.get("count", 0))
 
 
 def counts_by_implementer(hs_codes):
