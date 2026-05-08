@@ -1,4 +1,4 @@
-name: Refresh Dashboard Data
+name: Refresh Dashboard Data 
 
 on:
   schedule:
