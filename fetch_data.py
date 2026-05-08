@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 """
 fetch_data.py — Strategic Inputs Policy Monitor
-Fetches intervention data from the GTA API and writes data/dashboard.json.
+Fetches intervention data from the GTA API v2 and writes data/dashboard.json.
 Run daily via GitHub Actions.
-
-NOTE on API parameter names: this script uses the parameter names exposed
-by the GTA REST API (api.globaltradealert.org/api/v1/data/). If any request
-returns unexpected results, verify the exact field names against your API
-documentation, as the beta API may differ from the MCP abstraction layer.
 """
 
 import json
@@ -19,89 +14,24 @@ from datetime import datetime, timedelta, timezone
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-API_KEY  = os.environ.get("GTA_API_KEY")
-API_URL  = "https://api.globaltradealert.org/api/v1/data/"
-CUTOFF   = "2026-02-28"
-
-# Seconds between API requests (be polite to the API)
-REQUEST_DELAY = 0.5
+API_KEY      = os.environ.get("GTA_API_KEY")
+DATA_URL     = "https://api.globaltradealert.org/api/v2/gta/data/"
+COUNTS_URL   = "https://api.globaltradealert.org/api/v1/gta/data-counts/"
+CUTOFF       = "2026-02-28"
+REQUEST_DELAY = 0.5   # seconds between requests
 
 # ── Product definitions ───────────────────────────────────────────────────────
 
 PRODUCTS = [
-    {
-        "name": "Fuels",
-        "hs_codes": [270900, 271012, 271019],
-        "description": (
-            "Direct exposure to crude supply disruptions, reduced refinery throughput, "
-            "and constrained petroleum product exports through the Gulf/Hormuz corridor."
-        ),
-    },
-    {
-        "name": "Fertilizers",
-        "hs_codes": [310210, 310221, 310310, 310520, 310530],
-        "description": (
-            "Strong dependence on natural gas-derived ammonia and refinery-derived "
-            "sulphur/sulphuric acid used in urea, ammonium sulphate, phosphates, "
-            "DAP/MAP, and NPK production."
-        ),
-    },
-    {
-        "name": "Sulphur",
-        "hs_codes": [250300],
-        "description": (
-            "Sulphur is primarily recovered from oil refining and gas processing; "
-            "reduced refinery operations directly constrain supply."
-        ),
-    },
-    {
-        "name": "Methanol",
-        "hs_codes": [290511],
-        "description": (
-            "Produced mainly from natural gas feedstocks; Middle East "
-            "production/export infrastructure highly exposed to Gulf disruptions."
-        ),
-    },
-    {
-        "name": "Graphite Feedstocks",
-        "hs_codes": [271311, 271312, 380110],
-        "description": (
-            "Petroleum coke-based graphite feedstocks depend on refinery output "
-            "and delayed coking capacity."
-        ),
-    },
-    {
-        "name": "Alumina",
-        "hs_codes": [281820],
-        "description": (
-            "Energy-intensive refining process indirectly exposed to higher fuel "
-            "and gas prices caused by regional energy disruptions."
-        ),
-    },
-    {
-        "name": "Helium",
-        "hs_codes": [280429],
-        "description": (
-            "Significant global supply originates from Qatar and Gulf "
-            "gas-processing infrastructure dependent on Hormuz shipping routes."
-        ),
-    },
-    {
-        "name": "Monoethylene Glycol (MEG)",
-        "hs_codes": [290531],
-        "description": (
-            "Petrochemical derivative produced from ethylene; exposed to "
-            "disruptions in naphtha and gas-based cracker feedstocks."
-        ),
-    },
-    {
-        "name": "Iron Ore",
-        "hs_codes": [260111, 260112],
-        "description": (
-            "Primarily indirect exposure via higher bunker/freight costs and "
-            "weaker steel-sector demand rather than refinery dependence."
-        ),
-    },
+    {"name": "Fuels",                    "hs_codes": [270900, 271012, 271019],           "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor."},
+    {"name": "Fertilizers",              "hs_codes": [310210, 310221, 310310, 310520, 310530], "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur/sulphuric acid used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production."},
+    {"name": "Sulphur",                  "hs_codes": [250300],                           "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply."},
+    {"name": "Methanol",                 "hs_codes": [290511],                           "description": "Produced mainly from natural gas feedstocks; Middle East production/export infrastructure highly exposed to Gulf disruptions."},
+    {"name": "Graphite Feedstocks",      "hs_codes": [271311, 271312, 380110],           "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity."},
+    {"name": "Alumina",                  "hs_codes": [281820],                           "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions."},
+    {"name": "Helium",                   "hs_codes": [280429],                           "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes."},
+    {"name": "Monoethylene Glycol (MEG)","hs_codes": [290531],                           "description": "Petrochemical derivative produced from ethylene; exposed to disruptions in naphtha and gas-based cracker feedstocks."},
+    {"name": "Iron Ore",                 "hs_codes": [260111, 260112],                   "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence."},
 ]
 
 # ── Policy group definitions ──────────────────────────────────────────────────
@@ -109,28 +39,11 @@ PRODUCTS = [
 POLICY_GROUPS = {
     "export_controls": {
         "label": "Export Controls",
-        "intervention_types": [
-            "Export ban",
-            "Export quota",
-            "Export tax",
-            "Export tariff quota",
-            "Export licensing requirement",
-            "Export price benchmark",
-            "Local supply requirement",
-        ],
+        "intervention_types": ["Export ban","Export quota","Export tax","Export tariff quota","Export licensing requirement","Export price benchmark","Local supply requirement"],
     },
     "import_barriers": {
         "label": "Import Barriers",
-        "intervention_types": [
-            "Import tariff",
-            "Import quota",
-            "Import ban",
-            "Import tariff quota",
-            "Import licensing requirement",
-            "Import price benchmark",
-            "Minimum import price",
-            "Other import charges",
-        ],
+        "intervention_types": ["Import tariff","Import quota","Import ban","Import tariff quota","Import licensing requirement","Import price benchmark","Minimum import price","Other import charges"],
     },
     "domestic_subsidies": {
         "label": "Domestic Subsidies",
@@ -138,87 +51,93 @@ POLICY_GROUPS = {
     },
     "export_subsidies": {
         "label": "Export Subsidies",
-        "intervention_types": [
-            "Export subsidy",
-            "Trade finance",
-            "Financial assistance in a foreign market",
-            "Other export incentive",
-        ],
+        "intervention_types": ["Export subsidy","Trade finance","Financial assistance in a foreign market","Other export incentive"],
     },
     "sanctions": {
         "label": "Sanctions",
-        "intervention_types": [
-            "Controls on commercial transactions and investment instruments",
-        ],
+        "intervention_types": ["Controls on commercial transactions and investment instruments"],
     },
 }
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
-def last_saturday(reference: datetime) -> datetime:
-    """Return the most recent Saturday on or before reference."""
-    days_back = (reference.weekday() - 5) % 7
-    return reference - timedelta(days=days_back)
+def last_saturday(ref: datetime) -> str:
+    days_back = (ref.weekday() - 5) % 7
+    return (ref - timedelta(days=days_back)).strftime("%Y-%m-%d")
 
 
-def api_count(hs_codes: list, date_lte: str = None, extra: dict = None) -> int:
-    """
-    POST to GTA /data/ and return the total intervention count.
-    Uses limit=1 and reads the 'count' (or 'total') field from the response.
-    """
-    headers = {
+def headers():
+    return {
         "Content-Type": "application/json",
         "Authorization": f"APIKey {API_KEY}",
     }
 
+
+def data_count(hs_codes, date_end=None, extra=None):
+    """Return total intervention count from the v2 data endpoint."""
     request_data = {
         "affected_products": hs_codes,
-        "date_announced_gte": CUTOFF,
+        "announcement_period": [CUTOFF, date_end or ""],
     }
-    if date_lte:
-        request_data["date_announced_lte"] = date_lte
     if extra:
         request_data.update(extra)
 
-    body = {
-        "limit": 1,          # Minimise payload — we only need the count
-        "offset": 0,
-        "request_data": request_data,
-    }
-
+    body = {"limit": 0, "offset": 0, "request_data": request_data}
     time.sleep(REQUEST_DELAY)
-    resp = requests.post(API_URL, headers=headers, json=body, timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
+    r = requests.post(DATA_URL, headers=headers(), json=body, timeout=30)
+    r.raise_for_status()
+    return int(r.json().get("count", 0))
 
-    # The GTA API returns total count in a top-level field.
-    # Adjust key name if your API version uses a different field.
-    return int(data.get("count", data.get("total", data.get("n_interventions", 0))))
+
+def counts_by_implementer(hs_codes):
+    """Return {jurisdiction_id: count} using the data-counts endpoint."""
+    request_data = {
+        "affected_products": hs_codes,
+        "announcement_period": [CUTOFF, ""],
+        "count_by": ["implementer"],
+        "count_variable": "intervention_id",
+    }
+    body = {"request_data": request_data}
+    time.sleep(REQUEST_DELAY)
+    r = requests.post(COUNTS_URL, headers=headers(), json=body, timeout=30)
+    r.raise_for_status()
+    results = r.json().get("results", [])
+
+    implementing = {}
+    for row in results:
+        impl = row.get("implementer", {})
+        jid  = impl.get("jurisdiction_id")
+        cnt  = row.get("count", 0)
+        if jid and cnt:
+            implementing[str(jid)] = cnt
+    return implementing
 
 
 # ── Per-product computation ───────────────────────────────────────────────────
 
-def compute_product(product: dict) -> dict:
+def compute_product(product):
     codes = product["hs_codes"]
     today = datetime.now(timezone.utc)
-    sat_this = last_saturday(today).strftime("%Y-%m-%d")
-    sat_prev = (last_saturday(today) - timedelta(days=7)).strftime("%Y-%m-%d")
+    sat_this = last_saturday(today)
+    sat_prev = last_saturday(today - timedelta(days=7))
 
-    print(f"    Total ...", end=" ", flush=True)
-    total = api_count(codes)
+    print(f"    total ...", end=" ", flush=True)
+    total = data_count(codes)
     print(total)
 
-    print(f"    WoW  ...", end=" ", flush=True)
-    count_this_sat = api_count(codes, date_lte=sat_this)
-    count_prev_sat = api_count(codes, date_lte=sat_prev)
-    wow = count_this_sat - count_prev_sat
+    print(f"    wow   ...", end=" ", flush=True)
+    n_this = data_count(codes, date_end=sat_this)
+    n_prev = data_count(codes, date_end=sat_prev)
+    wow = n_this - n_prev
     print(f"{wow:+d}")
 
-    print(f"    Evaluation ...", end=" ", flush=True)
-    harmful      = api_count(codes, extra={"gta_evaluation": ["Red", "Amber"]})
-    liberalising = api_count(codes, extra={"gta_evaluation": ["Green"]})
-    murky        = api_count(codes, extra={"gta_evaluation": ["Murky"]})
-    print(f"H:{harmful} L:{liberalising} M:{murky}")
+    print(f"    harmful ...", end=" ", flush=True)
+    harmful = data_count(codes, extra={"gta_evaluation": ["Red", "Amber"]})
+    print(harmful)
+
+    print(f"    liberalising ...", end=" ", flush=True)
+    liberalising = data_count(codes, extra={"gta_evaluation": ["Green"]})
+    print(liberalising)
 
     policy_groups = {}
     for key, defn in POLICY_GROUPS.items():
@@ -228,26 +147,24 @@ def compute_product(product: dict) -> dict:
         if "mast_chapters" in defn:
             extra["mast_chapters"] = defn["mast_chapters"]
         print(f"    {defn['label']} ...", end=" ", flush=True)
-        n = api_count(codes, extra=extra)
+        n = data_count(codes, extra=extra)
         policy_groups[key] = n
         print(n)
 
+    print(f"    implementing jurisdictions ...", end=" ", flush=True)
+    implementing = counts_by_implementer(codes)
+    print(f"{len(implementing)} countries")
+
     return {
-        "name":               product["name"],
-        "hs_codes":           codes,
-        "description":        product["description"],
+        "name":                product["name"],
+        "hs_codes":            codes,
+        "description":         product["description"],
         "total_interventions": total,
-        "wow_change":         wow,
-        "reference_saturdays": {
-            "current":  sat_this,
-            "previous": sat_prev,
-        },
-        "evaluation": {
-            "harmful":      harmful,
-            "liberalising": liberalising,
-            "murky":        murky,
-        },
-        "policy_groups": policy_groups,
+        "wow_change":          wow,
+        "reference_saturdays": {"current": sat_this, "previous": sat_prev},
+        "evaluation":          {"harmful": harmful, "liberalising": liberalising},
+        "policy_groups":       policy_groups,
+        "implementing":        implementing,
     }
 
 
@@ -259,13 +176,13 @@ def main():
         sys.exit(1)
 
     print(f"=== Strategic Inputs Policy Monitor — Data Fetch ===")
-    print(f"Cutoff date : {CUTOFF}")
-    print(f"Run time    : {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"Cutoff : {CUTOFF}")
+    print(f"Run    : {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print()
 
     output = {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "cutoff_date": CUTOFF,
+        "cutoff_date":  CUTOFF,
         "overview": (
             "This dashboard tracks trade policy interventions affecting strategic input "
             "commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. "
@@ -277,16 +194,13 @@ def main():
 
     for i, product in enumerate(PRODUCTS, 1):
         print(f"[{i}/{len(PRODUCTS)}] {product['name']}")
-        result = compute_product(product)
-        output["products"].append(result)
+        output["products"].append(compute_product(product))
         print()
 
     os.makedirs("data", exist_ok=True)
-    out_path = "data/dashboard.json"
-    with open(out_path, "w") as f:
+    with open("data/dashboard.json", "w") as f:
         json.dump(output, f, indent=2)
-
-    print(f"Saved → {out_path}")
+    print("Saved → data/dashboard.json")
 
 
 if __name__ == "__main__":
