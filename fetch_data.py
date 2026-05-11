@@ -111,7 +111,9 @@ def fetch_all_interventions(hs_codes):
             results = raw.get("results", [])
             total   = raw.get("count", 0)
         all_results.extend(results)
-
+if results and len(all_results) == len(results):
+            print(f"    DEBUG keys: {list(results[0].keys())}")
+  
         offset += limit
         if offset >= total or not results:
             break
