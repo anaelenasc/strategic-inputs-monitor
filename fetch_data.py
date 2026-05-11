@@ -87,13 +87,11 @@ def fetch_all_interventions(hs_codes):
     limit  = 1000
 
     while True:
-        body = {
-            "limit":          limit,
-            "offset":         offset,
-            "sorting":        ["-date_announced"],
-            "show_full_names": True,
+         body = {
+            "limit":  limit,
+            "offset": offset,
             "request_data": {
-                "affected_products":  hs_codes,
+                "affected_products":   hs_codes,
                 "announcement_period": [CUTOFF, END_OPEN],
             },
         }
