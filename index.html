@@ -402,7 +402,8 @@ function makeMap(containerId, implementing){
 function render(data){
   _ch.forEach(c=>c.destroy());_ch=[];
   buildNav(data.products);
-  const root=document.getElementById('js-content');root.innerHTML='';
+  document.getElementById('js-updated').textContent = `Updated ${data.last_updated}`;
+  const root=document.getElementById('js-content');root.innerHTML='
 
   // Overview text
   const ov=document.createElement('div');ov.className='overview-blk';
