@@ -36,5 +36,5 @@ jobs:
           git add data/dashboard.json data/interventions.xlsx
           git diff --staged --quiet || \
             git commit -m "chore: refresh dashboard data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-          git push
+          git push 
 
