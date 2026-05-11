@@ -203,8 +203,9 @@ def compute_product(product):
         name = row.get("intervention_type_name", "")
         type_map[name] = type_map.get(name, 0) + row.get("value", 0)
 
-    # Domestic subsidies require a separate mast_chapters filter
-    dom_sub = total_count(codes, extra_filters={"mast_chapters": ["L"]})
+    # Domestic subsidies = MAST chapter L (ID 10), fetched via breakdown
+    resp_mast = counts_request(codes, count_by=["mast_chapter"])
+    dom_sub = sum(r.get("value", 0) for r in resp_mast.get("results", []) if r.get("mast_chapter_id") == 10)
 
     policy_groups = {}
     for key, defn in POLICY_GROUPS.items():
