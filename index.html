@@ -363,18 +363,18 @@ function makeMap(containerId, implementing){
       .data(countries.features)
       .join('path')
       .attr('class', d => {
-        const id = String(d.id);
-        return data[id] ? 'country' : 'country country-zero';
+        const alpha3 = ISO_TO_ALPHA3[d.id];
+        return (alpha3 && data[alpha3]) ? 'country' : 'country country-zero';
       })
       .attr('d', path)
       .attr('fill', d => {
-        const id = String(d.id);
-        return data[id] ? colorScale(data[id]) : '#F2F2F2';
+        const alpha3 = ISO_TO_ALPHA3[d.id];
+        return (alpha3 && data[alpha3]) ? colorScale(data[alpha3]) : '#131620';
       })
       .on('mousemove', function(event, d){
-        const id = String(d.id);
-        const count = data[id];
-        const name = ISO_NAMES[parseInt(id)] || `Country ${id}`;
+        const alpha3 = ISO_TO_ALPHA3[d.id];
+        const count = alpha3 ? data[alpha3] : null;
+        const name = ALPHA3_NAMES[alpha3] || `Country ${d.id}`;
         if(!count){ tip.style.opacity=0; return; }
         tip.style.opacity=1;
         tip.style.left=(event.clientX+14)+'px';
