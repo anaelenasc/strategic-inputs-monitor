@@ -1,0 +1,241 @@
+{
+  "last_updated": "2026-05-11 07:23 UTC",
+  "cutoff_date": "2026-02-28",
+  "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
+  "products": [
+    {
+      "name": "Fuels",
+      "hs_codes": [
+        270900,
+        271012,
+        271019
+      ],
+      "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
+      "total_interventions": 108,
+      "wow_change": 0,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 82,
+        "liberalising": 26
+      },
+      "policy_groups": {
+        "export_controls": 27,
+        "import_barriers": 24,
+        "domestic_subsidies": 39,
+        "export_subsidies": 4,
+        "sanctions": 7
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Fertilizers",
+      "hs_codes": [
+        310210,
+        310221,
+        310310,
+        310520,
+        310530
+      ],
+      "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur/sulphuric acid used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
+      "total_interventions": 19,
+      "wow_change": 1,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 11,
+        "liberalising": 8
+      },
+      "policy_groups": {
+        "export_controls": 4,
+        "import_barriers": 7,
+        "domestic_subsidies": 5,
+        "export_subsidies": 2,
+        "sanctions": 0
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Sulphur",
+      "hs_codes": [
+        250300
+      ],
+      "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply.",
+      "total_interventions": 7,
+      "wow_change": 0,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 3,
+        "liberalising": 4
+      },
+      "policy_groups": {
+        "export_controls": 2,
+        "import_barriers": 3,
+        "domestic_subsidies": 0,
+        "export_subsidies": 2,
+        "sanctions": 0
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Methanol",
+      "hs_codes": [
+        290511
+      ],
+      "description": "Produced mainly from natural gas feedstocks; Middle East production/export infrastructure highly exposed to Gulf disruptions.",
+      "total_interventions": 12,
+      "wow_change": 0,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 8,
+        "liberalising": 4
+      },
+      "policy_groups": {
+        "export_controls": 0,
+        "import_barriers": 4,
+        "domestic_subsidies": 5,
+        "export_subsidies": 2,
+        "sanctions": 0
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Graphite Feedstocks",
+      "hs_codes": [
+        271311,
+        271312,
+        380110
+      ],
+      "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
+      "total_interventions": 31,
+      "wow_change": 0,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 24,
+        "liberalising": 7
+      },
+      "policy_groups": {
+        "export_controls": 5,
+        "import_barriers": 5,
+        "domestic_subsidies": 8,
+        "export_subsidies": 2,
+        "sanctions": 3
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Alumina",
+      "hs_codes": [
+        281820
+      ],
+      "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions.",
+      "total_interventions": 22,
+      "wow_change": 1,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 18,
+        "liberalising": 4
+      },
+      "policy_groups": {
+        "export_controls": 4,
+        "import_barriers": 4,
+        "domestic_subsidies": 8,
+        "export_subsidies": 2,
+        "sanctions": 0
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Helium",
+      "hs_codes": [
+        280429
+      ],
+      "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
+      "total_interventions": 23,
+      "wow_change": 1,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 18,
+        "liberalising": 5
+      },
+      "policy_groups": {
+        "export_controls": 5,
+        "import_barriers": 5,
+        "domestic_subsidies": 7,
+        "export_subsidies": 2,
+        "sanctions": 0
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Monoethylene Glycol (MEG)",
+      "hs_codes": [
+        290531
+      ],
+      "description": "Petrochemical derivative produced from ethylene; exposed to disruptions in naphtha and gas-based cracker feedstocks.",
+      "total_interventions": 8,
+      "wow_change": 0,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 4,
+        "liberalising": 4
+      },
+      "policy_groups": {
+        "export_controls": 0,
+        "import_barriers": 4,
+        "domestic_subsidies": 1,
+        "export_subsidies": 2,
+        "sanctions": 0
+      },
+      "implementing": {}
+    },
+    {
+      "name": "Iron Ore",
+      "hs_codes": [
+        260111,
+        260112
+      ],
+      "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
+      "total_interventions": 8,
+      "wow_change": 0,
+      "reference_saturdays": {
+        "current": "2026-05-09",
+        "previous": "2026-05-02"
+      },
+      "evaluation": {
+        "harmful": 6,
+        "liberalising": 2
+      },
+      "policy_groups": {
+        "export_controls": 0,
+        "import_barriers": 4,
+        "domestic_subsidies": 0,
+        "export_subsidies": 3,
+        "sanctions": 0
+      },
+      "implementing": {}
+    }
+  ]
+}
