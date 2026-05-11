@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11 10:39 UTC",
+  "last_updated": "2026-05-11 10:45 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -28,7 +28,55 @@
         "export_subsidies": 4,
         "sanctions": 7
       },
-      "implementing": {}
+      "implementing": {
+        "IRL": 14,
+        "FRA": 14,
+        "ITA": 13,
+        "HUN": 13,
+        "DEU": 12,
+        "DNK": 12,
+        "SVN": 12,
+        "USA": 12,
+        "BGR": 12,
+        "ESP": 12,
+        "ROU": 12,
+        "GRC": 12,
+        "SVK": 12,
+        "PRT": 11,
+        "SWE": 11,
+        "LVA": 11,
+        "EST": 11,
+        "LUX": 11,
+        "LTU": 11,
+        "IND": 11,
+        "BEL": 11,
+        "MEX": 11,
+        "NLD": 11,
+        "CZE": 11,
+        "POL": 11,
+        "AUT": 11,
+        "CYP": 11,
+        "MLT": 11,
+        "HRV": 11,
+        "FIN": 11,
+        "KOR": 9,
+        "BRA": 8,
+        "CHN": 4,
+        "JPN": 4,
+        "VNM": 3,
+        "RUS": 2,
+        "GBR": 2,
+        "TWN": 2,
+        "MYS": 2,
+        "AUS": 2,
+        "TUR": 1,
+        "ZAF": 1,
+        "CHE": 1,
+        "SRB": 1,
+        "PAK": 1,
+        "CAN": 1,
+        "THA": 1
+      }
     },
     {
       "name": "Fertilizers",
@@ -57,7 +105,44 @@
         "export_subsidies": 2,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "CHN": 4,
+        "IND": 3,
+        "MYS": 2,
+        "AUS": 2,
+        "RUS": 2,
+        "TUR": 2,
+        "POL": 1,
+        "MLT": 1,
+        "LVA": 1,
+        "SWE": 1,
+        "IRL": 1,
+        "PRT": 1,
+        "BGR": 1,
+        "ESP": 1,
+        "BEL": 1,
+        "USA": 1,
+        "HUN": 1,
+        "DNK": 1,
+        "LTU": 1,
+        "FRA": 1,
+        "CYP": 1,
+        "DEU": 1,
+        "BRA": 1,
+        "HRV": 1,
+        "SVK": 1,
+        "FIN": 1,
+        "SVN": 1,
+        "EGY": 1,
+        "NLD": 1,
+        "GRC": 1,
+        "LUX": 1,
+        "ITA": 1,
+        "ROU": 1,
+        "CZE": 1,
+        "AUT": 1,
+        "EST": 1
+      }
     },
     {
       "name": "Sulphur",
@@ -82,7 +167,13 @@
         "export_subsidies": 2,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "IND": 2,
+        "MYS": 2,
+        "CHN": 1,
+        "TUR": 1,
+        "RUS": 1
+      }
     },
     {
       "name": "Methanol",
@@ -107,7 +198,15 @@
         "export_subsidies": 2,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "IND": 4,
+        "DNK": 2,
+        "MYS": 2,
+        "CHN": 1,
+        "ESP": 1,
+        "FRA": 1,
+        "BRA": 1
+      }
     },
     {
       "name": "Graphite Feedstocks",
@@ -134,7 +233,42 @@
         "export_subsidies": 2,
         "sanctions": 3
       },
-      "implementing": {}
+      "implementing": {
+        "USA": 13,
+        "ESP": 6,
+        "ROU": 5,
+        "LUX": 5,
+        "LTU": 5,
+        "HUN": 5,
+        "MLT": 5,
+        "AUT": 5,
+        "EST": 5,
+        "SVN": 5,
+        "SWE": 5,
+        "IRL": 5,
+        "PRT": 5,
+        "BGR": 5,
+        "CZE": 5,
+        "BEL": 5,
+        "ITA": 5,
+        "DNK": 5,
+        "POL": 5,
+        "FRA": 5,
+        "CYP": 5,
+        "DEU": 5,
+        "HRV": 5,
+        "SVK": 5,
+        "FIN": 5,
+        "NLD": 5,
+        "GRC": 5,
+        "LVA": 5,
+        "IND": 3,
+        "CHN": 2,
+        "MYS": 2,
+        "TWN": 2,
+        "CAN": 2,
+        "CHE": 1
+      }
     },
     {
       "name": "Alumina",
@@ -159,7 +293,43 @@
         "export_subsidies": 2,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "ESP": 6,
+        "DEU": 6,
+        "BGR": 6,
+        "SVN": 6,
+        "AUT": 6,
+        "LUX": 5,
+        "FIN": 5,
+        "LTU": 5,
+        "EST": 5,
+        "LVA": 5,
+        "SWE": 5,
+        "IRL": 5,
+        "PRT": 5,
+        "GRC": 5,
+        "NLD": 5,
+        "ROU": 5,
+        "BEL": 5,
+        "MLT": 5,
+        "DNK": 5,
+        "POL": 5,
+        "FRA": 5,
+        "CYP": 5,
+        "ITA": 5,
+        "CZE": 5,
+        "HRV": 5,
+        "SVK": 5,
+        "HUN": 5,
+        "IND": 3,
+        "TWN": 2,
+        "MYS": 2,
+        "USA": 1,
+        "BRA": 1,
+        "GBR": 1,
+        "CHE": 1,
+        "CHN": 1
+      }
     },
     {
       "name": "Helium",
@@ -184,7 +354,43 @@
         "export_subsidies": 2,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "ESP": 6,
+        "DEU": 6,
+        "AUT": 6,
+        "SVN": 6,
+        "BGR": 6,
+        "GRC": 5,
+        "HUN": 5,
+        "CZE": 5,
+        "EST": 5,
+        "LVA": 5,
+        "SWE": 5,
+        "IRL": 5,
+        "PRT": 5,
+        "ROU": 5,
+        "LTU": 5,
+        "BEL": 5,
+        "MLT": 5,
+        "DNK": 5,
+        "POL": 5,
+        "FRA": 5,
+        "CYP": 5,
+        "ITA": 5,
+        "HRV": 5,
+        "SVK": 5,
+        "FIN": 5,
+        "LUX": 5,
+        "NLD": 5,
+        "IND": 3,
+        "USA": 2,
+        "MYS": 2,
+        "TWN": 2,
+        "RUS": 1,
+        "GBR": 1,
+        "CHE": 1,
+        "CHN": 1
+      }
     },
     {
       "name": "Monoethylene Glycol (MEG)",
@@ -209,7 +415,12 @@
         "export_subsidies": 2,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "IND": 4,
+        "MYS": 2,
+        "CHN": 1,
+        "BRA": 1
+      }
     },
     {
       "name": "Iron Ore",
@@ -235,7 +446,39 @@
         "export_subsidies": 3,
         "sanctions": 0
       },
-      "implementing": {}
+      "implementing": {
+        "MLT": 2,
+        "CZE": 2,
+        "SVN": 2,
+        "LTU": 2,
+        "HUN": 2,
+        "ESP": 2,
+        "EST": 2,
+        "LVA": 2,
+        "ITA": 2,
+        "IRL": 2,
+        "PRT": 2,
+        "BGR": 2,
+        "IND": 2,
+        "BEL": 2,
+        "DNK": 2,
+        "POL": 2,
+        "FRA": 2,
+        "CYP": 2,
+        "DEU": 2,
+        "HRV": 2,
+        "SVK": 2,
+        "FIN": 2,
+        "NLD": 2,
+        "GRC": 2,
+        "AUT": 2,
+        "LUX": 2,
+        "MYS": 2,
+        "ROU": 2,
+        "SWE": 2,
+        "CHN": 1,
+        "JPN": 1
+      }
     }
   ]
 }
