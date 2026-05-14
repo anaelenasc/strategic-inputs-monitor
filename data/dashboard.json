@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14 09:33 UTC",
+  "last_updated": "2026-05-14 10:21 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -23,11 +23,11 @@
       },
       "policy_groups": {
         "export_controls": 27,
-        "import_barriers": 25,
-        "domestic_subsidies": 40,
+        "import_barriers": 24,
+        "domestic_subsidies": 0,
         "export_subsidies": 4,
         "sanctions": 8,
-        "other": 48
+        "other": 41
       },
       "implementing": {
         "IRL": 14,
@@ -102,7 +102,7 @@
       "policy_groups": {
         "export_controls": 4,
         "import_barriers": 7,
-        "domestic_subsidies": 5,
+        "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 6
@@ -197,7 +197,7 @@
       "policy_groups": {
         "export_controls": 0,
         "import_barriers": 4,
-        "domestic_subsidies": 5,
+        "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 6
@@ -232,8 +232,8 @@
       },
       "policy_groups": {
         "export_controls": 5,
-        "import_barriers": 5,
-        "domestic_subsidies": 8,
+        "import_barriers": 4,
+        "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 3,
         "other": 16
@@ -293,8 +293,8 @@
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 4,
-        "domestic_subsidies": 8,
+        "import_barriers": 3,
+        "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 12
@@ -355,8 +355,8 @@
       },
       "policy_groups": {
         "export_controls": 5,
-        "import_barriers": 5,
-        "domestic_subsidies": 7,
+        "import_barriers": 4,
+        "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 11
@@ -418,7 +418,7 @@
       "policy_groups": {
         "export_controls": 0,
         "import_barriers": 4,
-        "domestic_subsidies": 1,
+        "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 2
@@ -453,7 +453,7 @@
         "domestic_subsidies": 0,
         "export_subsidies": 3,
         "sanctions": 0,
-        "other": 1
+        "other": 0
       },
       "implementing": {
         "MLT": 2,
