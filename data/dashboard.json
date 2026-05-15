@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14 10:21 UTC",
+  "last_updated": "2026-05-15 09:47 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -23,7 +23,7 @@
       },
       "policy_groups": {
         "export_controls": 27,
-        "import_barriers": 24,
+        "import_barriers": 25,
         "domestic_subsidies": 0,
         "export_subsidies": 4,
         "sanctions": 8,
@@ -67,8 +67,8 @@
         "JPN": 4,
         "VNM": 3,
         "GBR": 2,
-        "TWN": 2,
         "MYS": 2,
+        "TWN": 2,
         "AUS": 2,
         "CAN": 2,
         "TUR": 1,
@@ -101,11 +101,11 @@
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 7,
+        "import_barriers": 8,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 6
+        "other": 9
       },
       "implementing": {
         "CHN": 4,
@@ -164,7 +164,7 @@
       },
       "policy_groups": {
         "export_controls": 2,
-        "import_barriers": 3,
+        "import_barriers": 4,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -196,11 +196,11 @@
       },
       "policy_groups": {
         "export_controls": 0,
-        "import_barriers": 4,
+        "import_barriers": 5,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 6
+        "other": 7
       },
       "implementing": {
         "IND": 4,
@@ -232,7 +232,7 @@
       },
       "policy_groups": {
         "export_controls": 5,
-        "import_barriers": 4,
+        "import_barriers": 5,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 3,
@@ -293,7 +293,7 @@
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 3,
+        "import_barriers": 4,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -355,7 +355,7 @@
       },
       "policy_groups": {
         "export_controls": 5,
-        "import_barriers": 4,
+        "import_barriers": 5,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -417,7 +417,7 @@
       },
       "policy_groups": {
         "export_controls": 0,
-        "import_barriers": 4,
+        "import_barriers": 5,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -449,7 +449,7 @@
       },
       "policy_groups": {
         "export_controls": 0,
-        "import_barriers": 4,
+        "import_barriers": 5,
         "domestic_subsidies": 0,
         "export_subsidies": 3,
         "sanctions": 0,
