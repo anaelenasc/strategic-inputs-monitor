@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19 10:37 UTC",
+  "last_updated": "2026-05-19 14:04 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,55 +11,55 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 114,
-      "wow_change": 1,
+      "total_interventions": 115,
+      "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-05-16",
         "previous": "2026-05-09"
       },
       "evaluation": {
-        "harmful": 84,
+        "harmful": 85,
         "liberalising": 30
       },
       "policy_groups": {
         "export_controls": 27,
         "import_barriers": 26,
-        "domestic_subsidies": 39,
+        "domestic_subsidies": 40,
         "export_subsidies": 4,
         "sanctions": 8,
         "other": 10
       },
       "implementing": {
-        "IRL": 14,
         "FRA": 14,
-        "ITA": 13,
+        "IRL": 14,
         "HUN": 13,
-        "DEU": 12,
-        "DNK": 12,
+        "ITA": 13,
+        "SVK": 12,
+        "ROU": 12,
         "SVN": 12,
         "MEX": 12,
-        "USA": 12,
+        "DEU": 12,
+        "DNK": 12,
         "ESP": 12,
-        "ROU": 12,
-        "BGR": 12,
+        "USA": 12,
         "GRC": 12,
-        "SVK": 12,
-        "PRT": 11,
+        "BGR": 12,
+        "NLD": 11,
         "SWE": 11,
+        "AUT": 11,
+        "PRT": 11,
         "LVA": 11,
         "EST": 11,
-        "LUX": 11,
         "IND": 11,
         "BEL": 11,
-        "LTU": 11,
-        "NLD": 11,
+        "LUX": 11,
+        "FIN": 11,
         "CZE": 11,
         "POL": 11,
-        "AUT": 11,
-        "CYP": 11,
         "MLT": 11,
+        "CYP": 11,
+        "LTU": 11,
         "HRV": 11,
-        "FIN": 11,
         "BRA": 9,
         "KOR": 9,
         "CHN": 4,
@@ -68,16 +68,54 @@
         "VNM": 3,
         "GBR": 2,
         "TWN": 2,
-        "MYS": 2,
         "AUS": 2,
+        "MYS": 2,
         "CAN": 2,
         "TUR": 1,
-        "ZAF": 1,
         "CHE": 1,
+        "ZAF": 1,
         "SRB": 1,
         "PAK": 1,
+        "PER": 1,
         "THA": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-11",
+          "title": "Peru: USD 2 billion loan guarantee for Petroper\u00fa to mitigate energy crisis and guarantee hydrocarbon supply",
+          "intervention_type": "Loan guarantee",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155498?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-08",
+          "title": "Russia: President authorises the sale by Composite System Ltd of its shares in EKTOSintez JSC",
+          "intervention_type": "FDI: Entry and ownership rule",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155165?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-08",
+          "title": "Russia: President authorises the sale by Composite System Ltd of its shares in EKTOSintez JSC",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155169?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-08",
+          "title": "Mexico: Higher tax credits under the fuel subsidy scheme (9 - 15 May 2026)",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155207?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Fertilizers",
@@ -144,7 +182,44 @@
         "CZE": 1,
         "AUT": 1,
         "LVA": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-13",
+          "title": "India: Scheme approved for the promotion of surface coal and lignite gasification projects",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/155392?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Egypt: Government imposes export tax on nitrogenous fertilisers for three months",
+          "intervention_type": "Export tax",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155021?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "EU: New state aid framework assisting sectors impacted by the situation in the Middle East",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154863?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Sulphur",
@@ -177,7 +252,44 @@
         "TUR": 1,
         "BRA": 1,
         "RUS": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-17",
+          "title": "India: Coverage under the RELIEF programme extended for exports to Egypt and Jordan",
+          "intervention_type": "Trade finance",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154623?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Methanol",
@@ -211,7 +323,44 @@
         "CHN": 1,
         "ESP": 1,
         "FRA": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-13",
+          "title": "India: Scheme approved for the promotion of surface coal and lignite gasification projects",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/155392?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Graphite Feedstocks",
@@ -275,7 +424,44 @@
         "CAN": 2,
         "BRA": 1,
         "CHE": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-24",
+          "title": "China: Government adds seven EU entities to the Export Control List (April 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154762?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-24",
+          "title": "United States of America: Sanctions against China-based refinery and global shipping network supporting Iranian petroleum trade",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154964?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154811?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Alumina",
@@ -337,7 +523,44 @@
         "GBR": 1,
         "CHE": 1,
         "CHN": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "Austria: EUR 900 million refund scheme for energy-intensive companies to compensate for indirect emission costs",
+          "intervention_type": "Financial grant",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155019?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "EU: New state aid framework assisting sectors impacted by the situation in the Middle East",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154811?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Helium",
@@ -400,7 +623,44 @@
         "GBR": 1,
         "CHE": 1,
         "CHN": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "Austria: EUR 900 million refund scheme for energy-intensive companies to compensate for indirect emission costs",
+          "intervention_type": "Financial grant",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155019?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "EU: New state aid framework assisting sectors impacted by the situation in the Middle East",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154811?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Monoethylene Glycol (MEG)",
@@ -431,7 +691,44 @@
         "BRA": 2,
         "MYS": 2,
         "CHN": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-17",
+          "title": "India: Coverage under the RELIEF programme extended for exports to Egypt and Jordan",
+          "intervention_type": "Trade finance",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154623?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     },
     {
       "name": "Iron Ore",
@@ -492,7 +789,44 @@
         "CHN": 1,
         "BRA": 1,
         "JPN": 1
-      }
+      },
+      "latest_interventions": [
+        {
+          "date": "2026-05-14",
+          "title": "United Kingdom: Government introduces the Steel Industry (Nationalisation) Bill to allow nationalisation of steel companies including British Steel",
+          "intervention_type": "Instrument unclear",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/155481?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "United Kingdom: Government introduces the Steel Industry (Nationalisation) Bill to allow nationalisation of steel companies including British Steel",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/155482?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
+          "intervention_type": "Import tariff",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154758?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "EU: Sanctions related to Belarus\u2019s involvement in Russia\u2019s invasion of Ukraine (April 2026)",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/154917?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        }
+      ]
     }
   ]
 }
