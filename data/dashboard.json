@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18 11:06 UTC",
+  "last_updated": "2026-05-19 07:25 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -440,14 +440,14 @@
         260112
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
-      "total_interventions": 9,
-      "wow_change": 1,
+      "total_interventions": 11,
+      "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-05-16",
         "previous": "2026-05-09"
       },
       "evaluation": {
-        "harmful": 6,
+        "harmful": 8,
         "liberalising": 3
       },
       "policy_groups": {
@@ -456,7 +456,7 @@
         "domestic_subsidies": 0,
         "export_subsidies": 3,
         "sanctions": 0,
-        "other": 0
+        "other": 2
       },
       "implementing": {
         "MLT": 2,
@@ -467,9 +467,10 @@
         "ESP": 2,
         "EST": 2,
         "LVA": 2,
+        "SWE": 2,
         "ITA": 2,
-        "IRL": 2,
         "PRT": 2,
+        "GBR": 2,
         "BGR": 2,
         "IND": 2,
         "BEL": 2,
@@ -478,19 +479,19 @@
         "FRA": 2,
         "CYP": 2,
         "DEU": 2,
-        "GRC": 2,
+        "AUT": 2,
         "HRV": 2,
         "SVK": 2,
         "FIN": 2,
         "NLD": 2,
-        "AUT": 2,
         "CZE": 2,
+        "GRC": 2,
         "LUX": 2,
         "MYS": 2,
-        "SWE": 2,
+        "IRL": 2,
         "CHN": 1,
-        "JPN": 1,
-        "BRA": 1
+        "BRA": 1,
+        "JPN": 1
       }
     }
   ]
