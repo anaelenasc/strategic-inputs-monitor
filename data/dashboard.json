@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-19 07:25 UTC",
+  "last_updated": "2026-05-19 07:35 UTC",
   "cutoff_date": "2026-02-28",
-  "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran-Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
+  "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
     {
       "name": "Fuels",
@@ -11,23 +11,23 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 113,
+      "total_interventions": 114,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-16",
         "previous": "2026-05-09"
       },
       "evaluation": {
-        "harmful": 83,
+        "harmful": 84,
         "liberalising": 30
       },
       "policy_groups": {
         "export_controls": 27,
-        "import_barriers": 25,
-        "domestic_subsidies": 0,
+        "import_barriers": 26,
+        "domestic_subsidies": 39,
         "export_subsidies": 4,
         "sanctions": 8,
-        "other": 41
+        "other": 10
       },
       "implementing": {
         "IRL": 14,
@@ -88,7 +88,7 @@
         310520,
         310530
       ],
-      "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur/sulphuric acid used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
+      "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
       "total_interventions": 23,
       "wow_change": 2,
       "reference_saturdays": {
@@ -102,10 +102,10 @@
       "policy_groups": {
         "export_controls": 4,
         "import_barriers": 8,
-        "domestic_subsidies": 0,
+        "domestic_subsidies": 8,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 9
+        "other": 1
       },
       "implementing": {
         "IND": 6,
@@ -184,7 +184,7 @@
       "hs_codes": [
         290511
       ],
-      "description": "Produced mainly from natural gas feedstocks; Middle East production/export infrastructure highly exposed to Gulf disruptions.",
+      "description": "Produced mainly from natural gas feedstocks; Middle East production and export infrastructure highly exposed to Gulf disruptions.",
       "total_interventions": 14,
       "wow_change": 2,
       "reference_saturdays": {
@@ -198,10 +198,10 @@
       "policy_groups": {
         "export_controls": 0,
         "import_barriers": 5,
-        "domestic_subsidies": 0,
+        "domestic_subsidies": 6,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 7
+        "other": 1
       },
       "implementing": {
         "IND": 5,
@@ -233,11 +233,11 @@
       },
       "policy_groups": {
         "export_controls": 5,
-        "import_barriers": 5,
-        "domestic_subsidies": 0,
+        "import_barriers": 6,
+        "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 3,
-        "other": 16
+        "other": 7
       },
       "implementing": {
         "USA": 13,
@@ -295,11 +295,11 @@
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 4,
-        "domestic_subsidies": 0,
+        "import_barriers": 5,
+        "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 12
+        "other": 3
       },
       "implementing": {
         "ESP": 6,
@@ -357,11 +357,11 @@
       },
       "policy_groups": {
         "export_controls": 5,
-        "import_barriers": 5,
-        "domestic_subsidies": 0,
+        "import_barriers": 6,
+        "domestic_subsidies": 8,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 11
+        "other": 3
       },
       "implementing": {
         "ESP": 6,
@@ -421,10 +421,10 @@
       "policy_groups": {
         "export_controls": 0,
         "import_barriers": 5,
-        "domestic_subsidies": 0,
+        "domestic_subsidies": 1,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 2
+        "other": 1
       },
       "implementing": {
         "IND": 4,
@@ -453,7 +453,7 @@
       "policy_groups": {
         "export_controls": 0,
         "import_barriers": 5,
-        "domestic_subsidies": 0,
+        "domestic_subsidies": 1,
         "export_subsidies": 3,
         "sanctions": 0,
         "other": 2
