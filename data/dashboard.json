@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20 10:23 UTC",
+  "last_updated": "2026-05-21 10:39 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,20 +11,20 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 115,
-      "wow_change": 2,
+      "total_interventions": 118,
+      "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-05-16",
         "previous": "2026-05-09"
       },
       "evaluation": {
-        "harmful": 85,
-        "liberalising": 30
+        "harmful": 86,
+        "liberalising": 32
       },
       "policy_groups": {
         "export_controls": 27,
-        "import_barriers": 26,
-        "domestic_subsidies": 40,
+        "import_barriers": 28,
+        "domestic_subsidies": 41,
         "export_subsidies": 4,
         "sanctions": 8,
         "other": 10
@@ -32,23 +32,23 @@
       "implementing": {
         "FRA": 14,
         "IRL": 14,
-        "HUN": 13,
+        "MEX": 13,
         "ITA": 13,
+        "HUN": 13,
         "SVK": 12,
+        "BGR": 12,
         "ROU": 12,
-        "SVN": 12,
-        "MEX": 12,
         "DEU": 12,
         "DNK": 12,
         "ESP": 12,
         "USA": 12,
         "GRC": 12,
-        "BGR": 12,
-        "NLD": 11,
+        "SVN": 12,
+        "LVA": 11,
         "SWE": 11,
         "AUT": 11,
         "PRT": 11,
-        "LVA": 11,
+        "NLD": 11,
         "EST": 11,
         "IND": 11,
         "BEL": 11,
@@ -66,11 +66,11 @@
         "RUS": 4,
         "JPN": 4,
         "VNM": 3,
-        "GBR": 2,
+        "GBR": 3,
+        "CAN": 3,
         "TWN": 2,
         "AUS": 2,
         "MYS": 2,
-        "CAN": 2,
         "TUR": 1,
         "CHE": 1,
         "ZAF": 1,
@@ -80,6 +80,13 @@
         "THA": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-05-15",
+          "title": "Mexico: Changes in  tax credits under the fuel subsidy scheme (16 - 22 May 2026)",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155464?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
@@ -107,13 +114,6 @@
           "intervention_type": "Controls on commercial transactions and investment instruments",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155169?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-08",
-          "title": "Mexico: Higher tax credits under the fuel subsidy scheme (9 - 15 May 2026)",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155207?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -127,20 +127,20 @@
         310530
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
-      "total_interventions": 23,
+      "total_interventions": 25,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-05-16",
         "previous": "2026-05-09"
       },
       "evaluation": {
-        "harmful": 14,
-        "liberalising": 9
+        "harmful": 15,
+        "liberalising": 10
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 8,
-        "domestic_subsidies": 8,
+        "import_barriers": 9,
+        "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 1
@@ -148,42 +148,56 @@
       "implementing": {
         "IND": 6,
         "CHN": 4,
-        "MYS": 2,
-        "AUS": 2,
+        "POL": 3,
+        "MLT": 3,
+        "LTU": 3,
+        "HUN": 3,
+        "ESP": 3,
+        "EST": 3,
+        "LVA": 3,
+        "SWE": 3,
+        "IRL": 3,
+        "SVN": 3,
+        "BGR": 3,
+        "NLD": 3,
+        "BEL": 3,
+        "AUT": 3,
+        "CZE": 3,
+        "DNK": 3,
+        "ITA": 3,
+        "FRA": 3,
+        "CYP": 3,
+        "DEU": 3,
+        "ROU": 3,
+        "HRV": 3,
+        "SVK": 3,
+        "FIN": 3,
+        "LUX": 3,
+        "GRC": 3,
+        "PRT": 3,
         "RUS": 2,
+        "MYS": 2,
         "BRA": 2,
         "TUR": 2,
-        "POL": 1,
-        "MLT": 1,
-        "SWE": 1,
-        "IRL": 1,
-        "PRT": 1,
-        "BGR": 1,
-        "EST": 1,
-        "BEL": 1,
-        "USA": 1,
-        "ESP": 1,
-        "DNK": 1,
-        "HUN": 1,
-        "FRA": 1,
-        "CYP": 1,
-        "DEU": 1,
-        "LTU": 1,
-        "HRV": 1,
-        "SVK": 1,
-        "FIN": 1,
-        "SVN": 1,
+        "AUS": 2,
         "EGY": 1,
-        "NLD": 1,
-        "GRC": 1,
-        "LUX": 1,
-        "ITA": 1,
-        "ROU": 1,
-        "CZE": 1,
-        "AUT": 1,
-        "LVA": 1
+        "USA": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-05-19",
+          "title": "EU: Commission unveils its \"Fertiliser Action Plan\"  to increase the availability, autonomy and resilience of fertilisers",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/155510?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "EU: Commission unveils its \"Fertiliser Action Plan\"  to increase the availability, autonomy and resilience of fertilisers",
+          "intervention_type": "Import tariff quota",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155511?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-13",
           "title": "India: Scheme approved for the promotion of surface coal and lignite gasification projects",
@@ -204,20 +218,6 @@
           "intervention_type": "Export tax",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/155021?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "EU: New state aid framework assisting sectors impacted by the situation in the Middle East",
-          "intervention_type": "State aid, unspecified",
-          "gta_evaluation": "Amber",
-          "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154863?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
