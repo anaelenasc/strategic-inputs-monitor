@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21 10:39 UTC",
+  "last_updated": "2026-05-22 10:24 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -176,9 +176,9 @@
         "GRC": 3,
         "PRT": 3,
         "RUS": 2,
-        "MYS": 2,
         "BRA": 2,
         "TUR": 2,
+        "MYS": 2,
         "AUS": 2,
         "EGY": 1,
         "USA": 1
@@ -568,20 +568,20 @@
         280429
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
-      "total_interventions": 24,
+      "total_interventions": 25,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-16",
         "previous": "2026-05-09"
       },
       "evaluation": {
-        "harmful": 18,
+        "harmful": 19,
         "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 5,
         "import_barriers": 6,
-        "domestic_subsidies": 8,
+        "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 3
@@ -618,11 +618,11 @@
         "TWN": 2,
         "USA": 2,
         "MYS": 2,
+        "CHN": 2,
         "RUS": 1,
         "BRA": 1,
         "GBR": 1,
-        "CHE": 1,
-        "CHN": 1
+        "CHE": 1
       },
       "latest_interventions": [
         {
@@ -631,6 +631,13 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-08",
+          "title": "China (Jiangsu Province): Launch of CNY 10 billion Capacity Expansion Strategic Emerging Industry Fund",
+          "intervention_type": "Financial investment support",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155622?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
           "date": "2026-05-05",
@@ -652,13 +659,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
-          "intervention_type": "Export ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154811?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
