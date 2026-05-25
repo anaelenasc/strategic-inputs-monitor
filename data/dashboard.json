@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25 11:09 UTC",
+  "last_updated": "2026-05-25 12:39 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,7 +11,7 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 119,
+      "total_interventions": 120,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -19,12 +19,12 @@
       },
       "evaluation": {
         "harmful": 87,
-        "liberalising": 32
+        "liberalising": 33
       },
       "policy_groups": {
         "export_controls": 27,
         "import_barriers": 28,
-        "domestic_subsidies": 42,
+        "domestic_subsidies": 43,
         "export_subsidies": 4,
         "sanctions": 8,
         "other": 10
@@ -81,6 +81,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155640?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-15",
           "title": "Mexico: Changes in  tax credits under the fuel subsidy scheme (16 - 22 May 2026)",
           "intervention_type": "Internal taxation of imports",
@@ -107,13 +114,6 @@
           "intervention_type": "FDI: Entry and ownership rule",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155165?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-08",
-          "title": "Russia: President authorises the sale by Composite System Ltd of its shares in EKTOSintez JSC",
-          "intervention_type": "Controls on commercial transactions and investment instruments",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155169?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -255,6 +255,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
           "intervention_type": "Import tariff",
@@ -281,13 +288,6 @@
           "intervention_type": "Internal taxation of imports",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-17",
-          "title": "India: Coverage under the RELIEF programme extended for exports to Egypt and Jordan",
-          "intervention_type": "Trade finance",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154623?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -326,6 +326,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-13",
           "title": "India: Scheme approved for the promotion of surface coal and lignite gasification projects",
           "intervention_type": "State aid, unspecified",
@@ -352,13 +359,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -427,6 +427,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
           "intervention_type": "Import tariff",
@@ -453,13 +460,6 @@
           "intervention_type": "Controls on commercial transactions and investment instruments",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/154964?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
-          "intervention_type": "Export ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154811?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -526,6 +526,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
           "intervention_type": "Import tariff",
@@ -552,13 +559,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
-          "intervention_type": "Export ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154811?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -626,6 +626,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
           "intervention_type": "Import tariff",
@@ -652,13 +659,6 @@
           "intervention_type": "State aid, unspecified",
           "gta_evaluation": "Amber",
           "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -792,6 +792,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-19",
+          "title": "United Kingdom: Government expands Russia sanctions regime",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-14",
           "title": "United Kingdom: Government introduces the Steel Industry (Nationalisation) Bill to allow nationalisation of steel companies including British Steel",
           "intervention_type": "Instrument unclear",
@@ -818,13 +825,6 @@
           "intervention_type": "Import ban",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/154758?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "EU: Sanctions related to Belarus\u2019s involvement in Russia\u2019s invasion of Ukraine (April 2026)",
-          "intervention_type": "Import ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154917?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     }
