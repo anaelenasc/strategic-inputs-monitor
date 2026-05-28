@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27 10:54 UTC",
+  "last_updated": "2026-05-28 10:55 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,42 +11,42 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 124,
+      "total_interventions": 128,
       "wow_change": 4,
       "reference_saturdays": {
         "current": "2026-05-23",
         "previous": "2026-05-16"
       },
       "evaluation": {
-        "harmful": 90,
-        "liberalising": 34
+        "harmful": 91,
+        "liberalising": 37
       },
       "policy_groups": {
         "export_controls": 27,
         "import_barriers": 30,
-        "domestic_subsidies": 44,
+        "domestic_subsidies": 46,
         "export_subsidies": 4,
         "sanctions": 9,
-        "other": 10
+        "other": 12
       },
       "implementing": {
-        "MEX": 14,
-        "FRA": 14,
         "IRL": 14,
-        "DNK": 13,
+        "FRA": 14,
+        "MEX": 14,
         "ITA": 13,
+        "DNK": 13,
         "HUN": 13,
-        "SVK": 12,
-        "BGR": 12,
         "DEU": 12,
         "ROU": 12,
+        "SVN": 12,
+        "SVK": 12,
         "ESP": 12,
         "USA": 12,
         "GRC": 12,
-        "SVN": 12,
-        "LVA": 11,
+        "BGR": 12,
+        "HRV": 11,
         "SWE": 11,
-        "CZE": 11,
+        "LVA": 11,
         "PRT": 11,
         "NLD": 11,
         "EST": 11,
@@ -54,12 +54,12 @@
         "BEL": 11,
         "LUX": 11,
         "FIN": 11,
-        "AUT": 11,
-        "POL": 11,
-        "MLT": 11,
-        "CYP": 11,
         "LTU": 11,
-        "HRV": 11,
+        "CZE": 11,
+        "POL": 11,
+        "AUT": 11,
+        "CYP": 11,
+        "MLT": 11,
         "BRA": 10,
         "KOR": 9,
         "CHN": 4,
@@ -68,10 +68,12 @@
         "JPN": 4,
         "VNM": 3,
         "CAN": 3,
+        "PHL": 2,
         "CHE": 2,
         "TWN": 2,
         "AUS": 2,
         "MYS": 2,
+        "IRQ": 2,
         "TUR": 1,
         "ZAF": 1,
         "SRB": 1,
@@ -109,11 +111,11 @@
           "url": "https://globaltradealert.org/intervention/155464?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
-          "date": "2026-05-12",
-          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+          "date": "2026-05-14",
+          "title": "Philippines: MIC provides PHP 15 billion credit facility to Petron Corporation",
+          "intervention_type": "State loan",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155552?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -127,7 +129,7 @@
         310530
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
-      "total_interventions": 25,
+      "total_interventions": 26,
       "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -135,7 +137,7 @@
       },
       "evaluation": {
         "harmful": 15,
-        "liberalising": 10
+        "liberalising": 11
       },
       "policy_groups": {
         "export_controls": 4,
@@ -143,13 +145,13 @@
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 1
+        "other": 2
       },
       "implementing": {
         "IND": 6,
         "CHN": 4,
         "POL": 3,
-        "MLT": 3,
+        "NLD": 3,
         "LTU": 3,
         "HUN": 3,
         "ESP": 3,
@@ -159,7 +161,7 @@
         "IRL": 3,
         "SVN": 3,
         "BGR": 3,
-        "NLD": 3,
+        "GRC": 3,
         "BEL": 3,
         "AUT": 3,
         "CZE": 3,
@@ -173,14 +175,15 @@
         "SVK": 3,
         "FIN": 3,
         "LUX": 3,
-        "GRC": 3,
+        "MLT": 3,
         "PRT": 3,
         "RUS": 2,
+        "MYS": 2,
         "BRA": 2,
         "TUR": 2,
-        "MYS": 2,
         "AUS": 2,
         "EGY": 1,
+        "IRQ": 1,
         "USA": 1
       },
       "latest_interventions": [
@@ -227,7 +230,7 @@
         250300
       ],
       "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply.",
-      "total_interventions": 9,
+      "total_interventions": 10,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -235,7 +238,7 @@
       },
       "evaluation": {
         "harmful": 4,
-        "liberalising": 5
+        "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 3,
@@ -243,7 +246,7 @@
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 0
+        "other": 1
       },
       "implementing": {
         "IND": 2,
@@ -252,7 +255,8 @@
         "GBR": 1,
         "TUR": 1,
         "BRA": 1,
-        "RUS": 1
+        "RUS": 1,
+        "IRQ": 1
       },
       "latest_interventions": [
         {
@@ -298,7 +302,7 @@
         290511
       ],
       "description": "Produced mainly from natural gas feedstocks; Middle East production and export infrastructure highly exposed to Gulf disruptions.",
-      "total_interventions": 15,
+      "total_interventions": 16,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -306,7 +310,7 @@
       },
       "evaluation": {
         "harmful": 10,
-        "liberalising": 5
+        "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 1,
@@ -314,7 +318,7 @@
         "domestic_subsidies": 6,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 1
+        "other": 2
       },
       "implementing": {
         "IND": 5,
@@ -324,7 +328,8 @@
         "CHN": 1,
         "ESP": 1,
         "GBR": 1,
-        "FRA": 1
+        "FRA": 1,
+        "IRQ": 1
       },
       "latest_interventions": [
         {
@@ -372,7 +377,7 @@
         380110
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
-      "total_interventions": 33,
+      "total_interventions": 34,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -380,7 +385,7 @@
       },
       "evaluation": {
         "harmful": 25,
-        "liberalising": 8
+        "liberalising": 9
       },
       "policy_groups": {
         "export_controls": 6,
@@ -388,7 +393,7 @@
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 3,
-        "other": 7
+        "other": 8
       },
       "implementing": {
         "USA": 13,
@@ -426,6 +431,7 @@
         "CAN": 2,
         "BRA": 1,
         "GBR": 1,
+        "IRQ": 1,
         "CHE": 1
       },
       "latest_interventions": [
@@ -472,7 +478,7 @@
         281820
       ],
       "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions.",
-      "total_interventions": 24,
+      "total_interventions": 25,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -480,7 +486,7 @@
       },
       "evaluation": {
         "harmful": 19,
-        "liberalising": 5
+        "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 5,
@@ -488,34 +494,34 @@
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 3
+        "other": 4
       },
       "implementing": {
         "ESP": 6,
-        "DEU": 6,
-        "BGR": 6,
-        "SVN": 6,
         "AUT": 6,
-        "EST": 5,
+        "DEU": 6,
+        "SVN": 6,
+        "BGR": 6,
+        "MLT": 5,
         "FIN": 5,
-        "LTU": 5,
-        "HRV": 5,
+        "ITA": 5,
+        "EST": 5,
         "LVA": 5,
         "SWE": 5,
         "IRL": 5,
         "PRT": 5,
+        "CZE": 5,
+        "LTU": 5,
         "ROU": 5,
-        "LUX": 5,
-        "GRC": 5,
         "BEL": 5,
-        "MLT": 5,
+        "LUX": 5,
         "DNK": 5,
         "POL": 5,
         "FRA": 5,
         "CYP": 5,
-        "ITA": 5,
+        "GRC": 5,
         "NLD": 5,
-        "CZE": 5,
+        "HRV": 5,
         "SVK": 5,
         "HUN": 5,
         "IND": 3,
@@ -524,6 +530,7 @@
         "GBR": 2,
         "MYS": 2,
         "USA": 1,
+        "IRQ": 1,
         "CHE": 1,
         "CHN": 1
       },
@@ -571,7 +578,7 @@
         280429
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
-      "total_interventions": 26,
+      "total_interventions": 27,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -579,7 +586,7 @@
       },
       "evaluation": {
         "harmful": 20,
-        "liberalising": 6
+        "liberalising": 7
       },
       "policy_groups": {
         "export_controls": 6,
@@ -587,7 +594,7 @@
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 3
+        "other": 4
       },
       "implementing": {
         "ESP": 6,
@@ -625,6 +632,7 @@
         "CHN": 2,
         "RUS": 1,
         "BRA": 1,
+        "IRQ": 1,
         "CHE": 1
       },
       "latest_interventions": [
@@ -671,7 +679,7 @@
         290531
       ],
       "description": "Petrochemical derivative produced from ethylene; exposed to disruptions in naphtha and gas-based cracker feedstocks.",
-      "total_interventions": 9,
+      "total_interventions": 10,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -679,7 +687,7 @@
       },
       "evaluation": {
         "harmful": 4,
-        "liberalising": 5
+        "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 0,
@@ -687,13 +695,14 @@
         "domestic_subsidies": 1,
         "export_subsidies": 2,
         "sanctions": 0,
-        "other": 1
+        "other": 2
       },
       "implementing": {
         "IND": 4,
         "BRA": 2,
         "MYS": 2,
-        "CHN": 1
+        "CHN": 1,
+        "IRQ": 1
       },
       "latest_interventions": [
         {
@@ -725,11 +734,11 @@
           "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
-          "date": "2026-04-17",
-          "title": "India: Coverage under the RELIEF programme extended for exports to Egypt and Jordan",
-          "intervention_type": "Trade finance",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154623?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+          "date": "2026-04-20",
+          "title": "Iraq: Reopening of Rabia\u2013Yarubiyah border crossing for trade with Syria",
+          "intervention_type": "Import-related non-tariff measure, nes",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155580?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -740,7 +749,7 @@
         260112
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
-      "total_interventions": 12,
+      "total_interventions": 13,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-23",
@@ -748,7 +757,7 @@
       },
       "evaluation": {
         "harmful": 9,
-        "liberalising": 3
+        "liberalising": 4
       },
       "policy_groups": {
         "export_controls": 1,
@@ -756,7 +765,7 @@
         "domestic_subsidies": 1,
         "export_subsidies": 3,
         "sanctions": 0,
-        "other": 2
+        "other": 3
       },
       "implementing": {
         "GBR": 3,
@@ -768,8 +777,8 @@
         "EST": 2,
         "LVA": 2,
         "SWE": 2,
+        "IRL": 2,
         "SVN": 2,
-        "PRT": 2,
         "ITA": 2,
         "BGR": 2,
         "IND": 2,
@@ -788,8 +797,9 @@
         "CZE": 2,
         "LUX": 2,
         "MYS": 2,
-        "IRL": 2,
+        "PRT": 2,
         "CHN": 1,
+        "IRQ": 1,
         "JPN": 1,
         "BRA": 1
       },
