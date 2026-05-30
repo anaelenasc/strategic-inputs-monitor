@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28 10:55 UTC",
+  "last_updated": "2026-05-30 09:13 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -12,10 +12,10 @@
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
       "total_interventions": 128,
-      "wow_change": 4,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 91,
@@ -130,10 +130,10 @@
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
       "total_interventions": 26,
-      "wow_change": 3,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 15,
@@ -231,10 +231,10 @@
       ],
       "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply.",
       "total_interventions": 10,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 4,
@@ -303,10 +303,10 @@
       ],
       "description": "Produced mainly from natural gas feedstocks; Middle East production and export infrastructure highly exposed to Gulf disruptions.",
       "total_interventions": 16,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 10,
@@ -378,10 +378,10 @@
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
       "total_interventions": 34,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 25,
@@ -479,10 +479,10 @@
       ],
       "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions.",
       "total_interventions": 25,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 19,
@@ -579,10 +579,10 @@
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
       "total_interventions": 27,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 20,
@@ -682,8 +682,8 @@
       "total_interventions": 10,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 4,
@@ -750,10 +750,10 @@
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
       "total_interventions": 13,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-23",
-        "previous": "2026-05-16"
+        "current": "2026-05-30",
+        "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 9,
