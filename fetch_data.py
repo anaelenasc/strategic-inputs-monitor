@@ -16,8 +16,8 @@ from datetime import datetime, timedelta, timezone
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 API_KEY    = os.environ.get("GTA_API_KEY")
-COUNTS_URL = "https://api.globaltradealert.org/api/v1/gta/data-counts/"
-DATA_URL   = "https://api.globaltradealert.org/api/v2/gta/data/"
+COUNTS_URL = "https://api-staging.globaltradealert.org/api/v1/gta/data-counts/"
+DATA_URL   = "https://api-staging.globaltradealert.org/api/v2/gta/data/"
 CUTOFF     = "2026-02-28"
 END_OPEN   = "2099-12-31"
 DELAY      = 0.5   # seconds between requests
