@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02 07:36 UTC",
+  "last_updated": "2026-06-02 11:16 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,65 +11,65 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 133,
+      "total_interventions": 136,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 92,
+        "harmful": 95,
         "liberalising": 41
       },
       "policy_groups": {
-        "export_controls": 32,
+        "export_controls": 33,
         "import_barriers": 30,
         "domestic_subsidies": 46,
         "export_subsidies": 4,
-        "sanctions": 9,
+        "sanctions": 11,
         "other": 12
       },
       "implementing": {
         "IND": 16,
-        "IRL": 14,
-        "FRA": 14,
         "MEX": 14,
-        "ITA": 13,
+        "FRA": 14,
+        "IRL": 14,
         "DNK": 13,
+        "ITA": 13,
         "HUN": 13,
-        "DEU": 12,
+        "SVK": 12,
         "ROU": 12,
         "SVN": 12,
-        "SVK": 12,
         "ESP": 12,
+        "DEU": 12,
         "USA": 12,
-        "GRC": 12,
         "BGR": 12,
-        "HRV": 11,
+        "GRC": 12,
+        "LTU": 11,
         "SWE": 11,
         "PRT": 11,
-        "NLD": 11,
         "LVA": 11,
         "EST": 11,
-        "BEL": 11,
-        "LUX": 11,
-        "FIN": 11,
-        "LTU": 11,
         "CZE": 11,
-        "POL": 11,
+        "BEL": 11,
+        "NLD": 11,
+        "FIN": 11,
         "AUT": 11,
-        "CYP": 11,
+        "POL": 11,
         "MLT": 11,
+        "CYP": 11,
+        "LUX": 11,
+        "HRV": 11,
         "BRA": 10,
         "KOR": 9,
+        "CHE": 5,
         "CHN": 4,
         "RUS": 4,
-        "GBR": 4,
         "JPN": 4,
+        "GBR": 4,
         "VNM": 3,
         "CAN": 3,
         "PHL": 2,
-        "CHE": 2,
         "TWN": 2,
         "AUS": 2,
         "MYS": 2,
@@ -377,18 +377,18 @@
         380110
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
-      "total_interventions": 34,
+      "total_interventions": 35,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 25,
+        "harmful": 26,
         "liberalising": 9
       },
       "policy_groups": {
-        "export_controls": 6,
+        "export_controls": 7,
         "import_barriers": 6,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
@@ -427,12 +427,12 @@
         "IND": 3,
         "CHN": 2,
         "MYS": 2,
+        "CHE": 2,
         "TWN": 2,
         "CAN": 2,
         "BRA": 1,
         "GBR": 1,
-        "IRQ": 1,
-        "CHE": 1
+        "IRQ": 1
       },
       "latest_interventions": [
         {
@@ -478,18 +478,18 @@
         281820
       ],
       "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions.",
-      "total_interventions": 25,
+      "total_interventions": 26,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 19,
+        "harmful": 20,
         "liberalising": 6
       },
       "policy_groups": {
-        "export_controls": 5,
+        "export_controls": 6,
         "import_barriers": 5,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
@@ -529,9 +529,9 @@
         "TWN": 2,
         "GBR": 2,
         "MYS": 2,
+        "CHE": 2,
         "USA": 1,
         "IRQ": 1,
-        "CHE": 1,
         "CHN": 1
       },
       "latest_interventions": [
@@ -578,18 +578,18 @@
         280429
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
-      "total_interventions": 27,
+      "total_interventions": 28,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 20,
+        "harmful": 21,
         "liberalising": 7
       },
       "policy_groups": {
-        "export_controls": 6,
+        "export_controls": 7,
         "import_barriers": 6,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
@@ -629,11 +629,11 @@
         "USA": 2,
         "GBR": 2,
         "MYS": 2,
+        "CHE": 2,
         "CHN": 2,
         "RUS": 1,
         "BRA": 1,
-        "IRQ": 1,
-        "CHE": 1
+        "IRQ": 1
       },
       "latest_interventions": [
         {
