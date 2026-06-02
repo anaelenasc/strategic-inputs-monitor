@@ -20,7 +20,8 @@ COUNTS_URL = "https://api-staging.globaltradealert.org/api/v1/gta/data-counts/"
 DATA_URL   = "https://api-staging.globaltradealert.org/api/v2/gta/data/"
 CUTOFF     = "2026-02-28"
 END_OPEN   = "2099-12-31"
-DELAY      = 0.5   # seconds between requests
+DELAY      = 0.5   # 0.5 s between requests = 2 r/s sustained, within rate limit (2r/s burst=5 nodelay)
+                   # All requests are sequential — no parallel calls are made.
 
 # GTA evaluation IDs
 HARMFUL_IDS      = {1, 2}   # Red, Amber
@@ -588,7 +589,6 @@ def main():
     # Write interventions xlsx
     print("Building Excel file...")
     build_excel(interventions_by_product, download_date)
-
-
+  
 if __name__ == "__main__":
     main()
