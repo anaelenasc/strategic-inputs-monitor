@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31 09:46 UTC",
+  "last_updated": "2026-06-02 07:36 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,18 +11,18 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 128,
-      "wow_change": 0,
+      "total_interventions": 133,
+      "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 91,
-        "liberalising": 37
+        "harmful": 92,
+        "liberalising": 41
       },
       "policy_groups": {
-        "export_controls": 27,
+        "export_controls": 32,
         "import_barriers": 30,
         "domestic_subsidies": 46,
         "export_subsidies": 4,
@@ -30,6 +30,7 @@
         "other": 12
       },
       "implementing": {
+        "IND": 16,
         "IRL": 14,
         "FRA": 14,
         "MEX": 14,
@@ -46,11 +47,10 @@
         "BGR": 12,
         "HRV": 11,
         "SWE": 11,
-        "LVA": 11,
         "PRT": 11,
         "NLD": 11,
+        "LVA": 11,
         "EST": 11,
-        "IND": 11,
         "BEL": 11,
         "LUX": 11,
         "FIN": 11,
@@ -83,6 +83,20 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-30",
+          "title": "India: Reduction of special additional excise duty on export of aviation turbine fuel (30 May 2026)",
+          "intervention_type": "Export tax",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155989?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-05-30",
+          "title": "India: Reduction in special additional excise duty on petrol and high-speed diesel oil exports (30 May 2026)",
+          "intervention_type": "Export tax",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155995?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-22",
           "title": "Switzerland: Two Belarusian companies added to the frozen fund list (May 2026)",
           "intervention_type": "Controls on commercial transactions and investment instruments",
@@ -102,20 +116,6 @@
           "intervention_type": "Import ban",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/155640?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Mexico: Changes in  tax credits under the fuel subsidy scheme (16 - 22 May 2026)",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155464?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Philippines: MIC provides PHP 15 billion credit facility to Petron Corporation",
-          "intervention_type": "State loan",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/155552?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -129,19 +129,19 @@
         310530
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
-      "total_interventions": 26,
-      "wow_change": 0,
+      "total_interventions": 27,
+      "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
         "harmful": 15,
-        "liberalising": 11
+        "liberalising": 12
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 9,
+        "import_barriers": 10,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -150,33 +150,33 @@
       "implementing": {
         "IND": 6,
         "CHN": 4,
-        "POL": 3,
-        "NLD": 3,
-        "LTU": 3,
-        "HUN": 3,
-        "ESP": 3,
-        "EST": 3,
-        "LVA": 3,
-        "SWE": 3,
-        "IRL": 3,
-        "SVN": 3,
-        "BGR": 3,
-        "GRC": 3,
-        "BEL": 3,
-        "AUT": 3,
-        "CZE": 3,
-        "DNK": 3,
-        "ITA": 3,
-        "FRA": 3,
-        "CYP": 3,
-        "DEU": 3,
-        "ROU": 3,
-        "HRV": 3,
-        "SVK": 3,
-        "FIN": 3,
-        "LUX": 3,
-        "MLT": 3,
-        "PRT": 3,
+        "NLD": 4,
+        "SVN": 4,
+        "LTU": 4,
+        "HUN": 4,
+        "ESP": 4,
+        "EST": 4,
+        "LVA": 4,
+        "SWE": 4,
+        "GRC": 4,
+        "PRT": 4,
+        "BGR": 4,
+        "ITA": 4,
+        "BEL": 4,
+        "AUT": 4,
+        "CZE": 4,
+        "DNK": 4,
+        "POL": 4,
+        "FRA": 4,
+        "CYP": 4,
+        "DEU": 4,
+        "ROU": 4,
+        "HRV": 4,
+        "SVK": 4,
+        "FIN": 4,
+        "LUX": 4,
+        "MLT": 4,
+        "IRL": 4,
         "RUS": 2,
         "MYS": 2,
         "BRA": 2,
@@ -187,6 +187,13 @@
         "USA": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-05-29",
+          "title": "EU: Autonomous tariff quotas suspending import duties on nitrogen-based fertilisers and inputs",
+          "intervention_type": "Import tariff quota",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155897?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-19",
           "title": "EU: Commission unveils its \"Fertiliser Action Plan\"  to increase the availability, autonomy and resilience of fertilisers",
@@ -214,13 +221,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-04",
-          "title": "Egypt: Government imposes export tax on nitrogenous fertilisers for three months",
-          "intervention_type": "Export tax",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/155021?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -749,7 +749,7 @@
         260112
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
-      "total_interventions": 13,
+      "total_interventions": 14,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
@@ -757,20 +757,20 @@
       },
       "evaluation": {
         "harmful": 9,
-        "liberalising": 4
+        "liberalising": 5
       },
       "policy_groups": {
         "export_controls": 1,
         "import_barriers": 5,
         "domestic_subsidies": 1,
         "export_subsidies": 3,
-        "sanctions": 0,
+        "sanctions": 1,
         "other": 3
       },
       "implementing": {
         "GBR": 3,
         "MLT": 2,
-        "ROU": 2,
+        "MYS": 2,
         "LTU": 2,
         "HUN": 2,
         "ESP": 2,
@@ -792,18 +792,26 @@
         "HRV": 2,
         "SVK": 2,
         "FIN": 2,
-        "NLD": 2,
         "AUT": 2,
+        "NLD": 2,
         "CZE": 2,
+        "ROU": 2,
         "LUX": 2,
-        "MYS": 2,
         "PRT": 2,
         "CHN": 1,
-        "IRQ": 1,
         "JPN": 1,
+        "IRQ": 1,
+        "RUS": 1,
         "BRA": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-05-21",
+          "title": "Russia: Presidential authorisation for transactions involving shares of JSC Holding Company Metalloinvest",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/155849?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-19",
           "title": "United Kingdom: Government expands Russia sanctions regime",
@@ -831,13 +839,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "EU: 20th sanctions package against Russia for its invasion of Ukraine (April 2026)",
-          "intervention_type": "Import ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154758?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     }
