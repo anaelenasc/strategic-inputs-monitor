@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02 11:16 UTC",
+  "last_updated": "2026-06-03 11:55 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,19 +11,19 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 136,
-      "wow_change": 2,
+      "total_interventions": 138,
+      "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 95,
+        "harmful": 97,
         "liberalising": 41
       },
       "policy_groups": {
-        "export_controls": 33,
-        "import_barriers": 30,
+        "export_controls": 34,
+        "import_barriers": 31,
         "domestic_subsidies": 46,
         "export_subsidies": 4,
         "sanctions": 11,
@@ -31,40 +31,40 @@
       },
       "implementing": {
         "IND": 16,
-        "MEX": 14,
-        "FRA": 14,
+        "MEX": 15,
         "IRL": 14,
-        "DNK": 13,
+        "FRA": 14,
         "ITA": 13,
+        "DNK": 13,
         "HUN": 13,
-        "SVK": 12,
+        "DEU": 12,
         "ROU": 12,
         "SVN": 12,
-        "ESP": 12,
-        "DEU": 12,
         "USA": 12,
+        "ESP": 12,
         "BGR": 12,
         "GRC": 12,
-        "LTU": 11,
-        "SWE": 11,
+        "SVK": 12,
         "PRT": 11,
+        "SWE": 11,
         "LVA": 11,
         "EST": 11,
-        "CZE": 11,
-        "BEL": 11,
-        "NLD": 11,
-        "FIN": 11,
-        "AUT": 11,
-        "POL": 11,
-        "MLT": 11,
-        "CYP": 11,
         "LUX": 11,
+        "BEL": 11,
+        "LTU": 11,
+        "NLD": 11,
+        "CZE": 11,
+        "POL": 11,
+        "AUT": 11,
+        "CYP": 11,
+        "MLT": 11,
         "HRV": 11,
+        "FIN": 11,
         "BRA": 10,
         "KOR": 9,
         "CHE": 5,
+        "RUS": 5,
         "CHN": 4,
-        "RUS": 4,
         "JPN": 4,
         "GBR": 4,
         "VNM": 3,
@@ -83,6 +83,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-06-01",
+          "title": "Russia: Temporary export ban on jet fuel (2 June - 30 November 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156066?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-30",
           "title": "India: Reduction of special additional excise duty on export of aviation turbine fuel (30 May 2026)",
           "intervention_type": "Export tax",
@@ -97,25 +104,18 @@
           "url": "https://globaltradealert.org/intervention/155995?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
+          "date": "2026-05-29",
+          "title": "Mexico: Lower tax credits under the fuel subsidy scheme (30 May to 5 June 2026)",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156067?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-22",
           "title": "Switzerland: Two Belarusian companies added to the frozen fund list (May 2026)",
           "intervention_type": "Controls on commercial transactions and investment instruments",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/155728?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-22",
-          "title": "Mexico: Higher tax credits under the fuel subsidy scheme (23 - 29 May 2026)",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155749?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "United Kingdom: Government expands Russia sanctions regime",
-          "intervention_type": "Import ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/155640?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -230,25 +230,26 @@
         250300
       ],
       "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply.",
-      "total_interventions": 10,
+      "total_interventions": 15,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 4,
+        "harmful": 9,
         "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 3,
-        "import_barriers": 4,
+        "import_barriers": 9,
         "domestic_subsidies": 0,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 1
       },
       "implementing": {
+        "USA": 5,
         "IND": 2,
         "MYS": 2,
         "CHN": 1,
@@ -302,19 +303,19 @@
         290511
       ],
       "description": "Produced mainly from natural gas feedstocks; Middle East production and export infrastructure highly exposed to Gulf disruptions.",
-      "total_interventions": 16,
+      "total_interventions": 21,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 10,
+        "harmful": 15,
         "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 1,
-        "import_barriers": 5,
+        "import_barriers": 10,
         "domestic_subsidies": 6,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -322,6 +323,7 @@
       },
       "implementing": {
         "IND": 5,
+        "USA": 5,
         "DNK": 2,
         "BRA": 2,
         "MYS": 2,
@@ -377,26 +379,26 @@
         380110
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
-      "total_interventions": 35,
+      "total_interventions": 40,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 26,
+        "harmful": 31,
         "liberalising": 9
       },
       "policy_groups": {
         "export_controls": 7,
-        "import_barriers": 6,
+        "import_barriers": 11,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 3,
         "other": 8
       },
       "implementing": {
-        "USA": 13,
+        "USA": 18,
         "ESP": 6,
         "LUX": 5,
         "NLD": 5,
@@ -436,6 +438,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-21",
+          "title": "Switzerland: Further sanctions in response to Russia\u2019s invasion of Ukraine (May 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155878?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-19",
           "title": "United Kingdom: Government expands Russia sanctions regime",
           "intervention_type": "Export ban",
@@ -462,13 +471,6 @@
           "intervention_type": "Export ban",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/154762?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-24",
-          "title": "United States of America: Sanctions against China-based refinery and global shipping network supporting Iranian petroleum trade",
-          "intervention_type": "Controls on commercial transactions and investment instruments",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154964?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -536,6 +538,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-21",
+          "title": "Switzerland: Further sanctions in response to Russia\u2019s invasion of Ukraine (May 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155878?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-19",
           "title": "United Kingdom: Government expands Russia sanctions regime",
           "intervention_type": "Export ban",
@@ -562,13 +571,6 @@
           "intervention_type": "State aid, unspecified",
           "gta_evaluation": "Amber",
           "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -637,6 +639,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-05-21",
+          "title": "Switzerland: Further sanctions in response to Russia\u2019s invasion of Ukraine (May 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/155878?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-19",
           "title": "United Kingdom: Government expands Russia sanctions regime",
           "intervention_type": "Export ban",
@@ -663,13 +672,6 @@
           "intervention_type": "Financial grant",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/155019?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "EU: New state aid framework assisting sectors impacted by the situation in the Middle East",
-          "intervention_type": "State aid, unspecified",
-          "gta_evaluation": "Amber",
-          "url": "https://globaltradealert.org/intervention/154986?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -679,25 +681,26 @@
         290531
       ],
       "description": "Petrochemical derivative produced from ethylene; exposed to disruptions in naphtha and gas-based cracker feedstocks.",
-      "total_interventions": 10,
+      "total_interventions": 15,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 4,
+        "harmful": 9,
         "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 0,
-        "import_barriers": 5,
+        "import_barriers": 10,
         "domestic_subsidies": 1,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 2
       },
       "implementing": {
+        "USA": 5,
         "IND": 4,
         "BRA": 2,
         "MYS": 2,
@@ -749,40 +752,41 @@
         260112
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
-      "total_interventions": 14,
+      "total_interventions": 19,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 9,
+        "harmful": 14,
         "liberalising": 5
       },
       "policy_groups": {
         "export_controls": 1,
-        "import_barriers": 5,
+        "import_barriers": 10,
         "domestic_subsidies": 1,
         "export_subsidies": 3,
         "sanctions": 1,
         "other": 3
       },
       "implementing": {
+        "USA": 5,
         "GBR": 3,
         "MLT": 2,
         "MYS": 2,
-        "LTU": 2,
         "HUN": 2,
         "ESP": 2,
         "EST": 2,
         "LVA": 2,
         "SWE": 2,
         "IRL": 2,
-        "SVN": 2,
-        "ITA": 2,
+        "PRT": 2,
+        "LTU": 2,
         "BGR": 2,
         "IND": 2,
         "BEL": 2,
+        "ITA": 2,
         "DNK": 2,
         "POL": 2,
         "FRA": 2,
@@ -797,7 +801,7 @@
         "CZE": 2,
         "ROU": 2,
         "LUX": 2,
-        "PRT": 2,
+        "SVN": 2,
         "CHN": 1,
         "JPN": 1,
         "IRQ": 1,
