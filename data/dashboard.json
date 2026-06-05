@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04 10:37 UTC",
+  "last_updated": "2026-06-05 10:45 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,20 +11,20 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 138,
+      "total_interventions": 137,
       "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-05-30",
         "previous": "2026-05-23"
       },
       "evaluation": {
-        "harmful": 97,
+        "harmful": 96,
         "liberalising": 41
       },
       "policy_groups": {
         "export_controls": 34,
         "import_barriers": 31,
-        "domestic_subsidies": 46,
+        "domestic_subsidies": 45,
         "export_subsidies": 4,
         "sanctions": 11,
         "other": 12
