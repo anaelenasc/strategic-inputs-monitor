@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05 10:45 UTC",
+  "last_updated": "2026-06-07 09:58 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -12,10 +12,10 @@
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
       "total_interventions": 137,
-      "wow_change": 3,
+      "wow_change": 1,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 96,
@@ -130,10 +130,10 @@
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
       "total_interventions": 27,
-      "wow_change": 1,
+      "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 15,
@@ -178,9 +178,9 @@
         "MLT": 4,
         "IRL": 4,
         "RUS": 2,
-        "MYS": 2,
         "BRA": 2,
         "TUR": 2,
+        "MYS": 2,
         "AUS": 2,
         "EGY": 1,
         "IRQ": 1,
@@ -233,8 +233,8 @@
       "total_interventions": 15,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 9,
@@ -306,8 +306,8 @@
       "total_interventions": 21,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 15,
@@ -382,8 +382,8 @@
       "total_interventions": 40,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 31,
@@ -483,8 +483,8 @@
       "total_interventions": 26,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 20,
@@ -583,8 +583,8 @@
       "total_interventions": 28,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 21,
@@ -684,8 +684,8 @@
       "total_interventions": 15,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 9,
@@ -755,8 +755,8 @@
       "total_interventions": 19,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-05-30",
-        "previous": "2026-05-23"
+        "current": "2026-06-06",
+        "previous": "2026-05-30"
       },
       "evaluation": {
         "harmful": 14,
@@ -799,12 +799,12 @@
         "AUT": 2,
         "NLD": 2,
         "CZE": 2,
-        "ROU": 2,
         "LUX": 2,
+        "ROU": 2,
         "SVN": 2,
+        "IRQ": 1,
         "CHN": 1,
         "JPN": 1,
-        "IRQ": 1,
         "RUS": 1,
         "BRA": 1
       },
