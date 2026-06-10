@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09 10:33 UTC",
+  "last_updated": "2026-06-10 10:54 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -82,6 +82,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-06-02",
+          "title": "Philippines: President approves 2026 Strategic Investment Priority Plan",
+          "intervention_type": "Tax or social insurance relief",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/156247?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-06-01",
           "title": "Russia: Temporary export ban on jet fuel (2 June - 30 November 2026)",
           "intervention_type": "Export ban",
@@ -108,13 +115,6 @@
           "intervention_type": "Internal taxation of imports",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/156067?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-22",
-          "title": "Switzerland: Two Belarusian companies added to the frozen fund list (May 2026)",
-          "intervention_type": "Controls on commercial transactions and investment instruments",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/155728?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -177,9 +177,9 @@
         "MLT": 4,
         "IRL": 4,
         "RUS": 2,
-        "MYS": 2,
         "BRA": 2,
         "TUR": 2,
+        "MYS": 2,
         "AUS": 2,
         "EGY": 1,
         "IRQ": 1,
@@ -260,6 +260,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-06-02",
+          "title": "Philippines: President approves 2026 Strategic Investment Priority Plan",
+          "intervention_type": "Tax or social insurance relief",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/156247?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-19",
           "title": "United Kingdom: Government expands Russia sanctions regime",
           "intervention_type": "Export ban",
@@ -286,13 +293,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -638,6 +638,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-06-02",
+          "title": "Philippines: President approves 2026 Strategic Investment Priority Plan",
+          "intervention_type": "Tax or social insurance relief",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/156247?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-21",
           "title": "Switzerland: Further sanctions in response to Russia\u2019s invasion of Ukraine (May 2026)",
           "intervention_type": "Export ban",
@@ -664,13 +671,6 @@
           "intervention_type": "Financial investment support",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/155622?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "Austria: EUR 900 million refund scheme for energy-intensive companies to compensate for indirect emission costs",
-          "intervention_type": "Financial grant",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/155019?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -798,16 +798,23 @@
         "AUT": 2,
         "NLD": 2,
         "CZE": 2,
-        "LUX": 2,
         "ROU": 2,
+        "LUX": 2,
         "SVN": 2,
-        "IRQ": 1,
         "CHN": 1,
         "JPN": 1,
+        "IRQ": 1,
         "RUS": 1,
         "BRA": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-06-02",
+          "title": "Philippines: President approves 2026 Strategic Investment Priority Plan",
+          "intervention_type": "Tax or social insurance relief",
+          "gta_evaluation": "Amber",
+          "url": "https://globaltradealert.org/intervention/156247?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-21",
           "title": "Russia: Presidential authorisation for transactions involving shares of JSC Holding Company Metalloinvest",
@@ -835,13 +842,6 @@
           "intervention_type": "State aid, unspecified",
           "gta_evaluation": "Amber",
           "url": "https://globaltradealert.org/intervention/155482?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     }
