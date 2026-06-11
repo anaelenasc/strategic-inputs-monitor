@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10 10:54 UTC",
+  "last_updated": "2026-06-11 11:21 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,27 +11,27 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 135,
-      "wow_change": 1,
+      "total_interventions": 137,
+      "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-06-06",
         "previous": "2026-05-30"
       },
       "evaluation": {
-        "harmful": 94,
+        "harmful": 96,
         "liberalising": 41
       },
       "policy_groups": {
         "export_controls": 34,
-        "import_barriers": 31,
-        "domestic_subsidies": 44,
+        "import_barriers": 32,
+        "domestic_subsidies": 45,
         "export_subsidies": 4,
         "sanctions": 11,
         "other": 11
       },
       "implementing": {
+        "MEX": 16,
         "IND": 16,
-        "MEX": 15,
         "IRL": 14,
         "FRA": 14,
         "ITA": 13,
@@ -68,8 +68,8 @@
         "JPN": 4,
         "GBR": 4,
         "VNM": 3,
+        "PHL": 3,
         "CAN": 3,
-        "PHL": 2,
         "TWN": 2,
         "AUS": 2,
         "MYS": 2,
@@ -229,20 +229,20 @@
         250300
       ],
       "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply.",
-      "total_interventions": 15,
-      "wow_change": 0,
+      "total_interventions": 16,
+      "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-06-06",
         "previous": "2026-05-30"
       },
       "evaluation": {
-        "harmful": 9,
+        "harmful": 10,
         "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 3,
         "import_barriers": 9,
-        "domestic_subsidies": 0,
+        "domestic_subsidies": 1,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 1
@@ -253,6 +253,7 @@
         "MYS": 2,
         "CHN": 1,
         "GBR": 1,
+        "PHL": 1,
         "TUR": 1,
         "BRA": 1,
         "RUS": 1,
@@ -579,20 +580,20 @@
         280429
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
-      "total_interventions": 28,
-      "wow_change": 0,
+      "total_interventions": 29,
+      "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-06-06",
         "previous": "2026-05-30"
       },
       "evaluation": {
-        "harmful": 21,
+        "harmful": 22,
         "liberalising": 7
       },
       "policy_groups": {
         "export_controls": 7,
         "import_barriers": 6,
-        "domestic_subsidies": 9,
+        "domestic_subsidies": 10,
         "export_subsidies": 2,
         "sanctions": 0,
         "other": 4
@@ -604,7 +605,7 @@
         "SVN": 6,
         "BGR": 6,
         "MLT": 5,
-        "FIN": 5,
+        "SVK": 5,
         "ITA": 5,
         "EST": 5,
         "LVA": 5,
@@ -616,14 +617,14 @@
         "ROU": 5,
         "BEL": 5,
         "LUX": 5,
+        "GRC": 5,
         "DNK": 5,
         "POL": 5,
         "FRA": 5,
         "CYP": 5,
-        "GRC": 5,
         "NLD": 5,
+        "FIN": 5,
         "HRV": 5,
-        "SVK": 5,
         "HUN": 5,
         "IND": 3,
         "TWN": 2,
@@ -632,8 +633,9 @@
         "MYS": 2,
         "CHE": 2,
         "CHN": 2,
-        "RUS": 1,
         "BRA": 1,
+        "RUS": 1,
+        "PHL": 1,
         "IRQ": 1
       },
       "latest_interventions": [
@@ -751,20 +753,20 @@
         260112
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
-      "total_interventions": 19,
-      "wow_change": 0,
+      "total_interventions": 20,
+      "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-06-06",
         "previous": "2026-05-30"
       },
       "evaluation": {
-        "harmful": 14,
+        "harmful": 15,
         "liberalising": 5
       },
       "policy_groups": {
         "export_controls": 1,
         "import_barriers": 10,
-        "domestic_subsidies": 1,
+        "domestic_subsidies": 2,
         "export_subsidies": 3,
         "sanctions": 1,
         "other": 3
@@ -773,7 +775,7 @@
         "USA": 5,
         "GBR": 3,
         "MLT": 2,
-        "MYS": 2,
+        "LUX": 2,
         "HUN": 2,
         "ESP": 2,
         "EST": 2,
@@ -786,26 +788,27 @@
         "IND": 2,
         "BEL": 2,
         "ITA": 2,
+        "GRC": 2,
         "DNK": 2,
         "POL": 2,
         "FRA": 2,
         "CYP": 2,
         "DEU": 2,
-        "GRC": 2,
+        "AUT": 2,
         "HRV": 2,
         "SVK": 2,
         "FIN": 2,
-        "AUT": 2,
-        "NLD": 2,
         "CZE": 2,
+        "NLD": 2,
         "ROU": 2,
-        "LUX": 2,
+        "MYS": 2,
         "SVN": 2,
         "CHN": 1,
         "JPN": 1,
-        "IRQ": 1,
         "RUS": 1,
-        "BRA": 1
+        "IRQ": 1,
+        "BRA": 1,
+        "PHL": 1
       },
       "latest_interventions": [
         {
