@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11 11:21 UTC",
+  "last_updated": "2026-06-12 11:00 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -82,6 +82,13 @@
       },
       "latest_interventions": [
         {
+          "date": "2026-06-05",
+          "title": "Mexico: Lower tax credits under the fuel subsidy scheme (6 to 12 June 2026)",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156325?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-06-02",
           "title": "Philippines: President approves 2026 Strategic Investment Priority Plan",
           "intervention_type": "Tax or social insurance relief",
@@ -108,13 +115,6 @@
           "intervention_type": "Export tax",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155995?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Mexico: Lower tax credits under the fuel subsidy scheme (30 May to 5 June 2026)",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/156067?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
