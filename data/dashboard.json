@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14 10:23 UTC",
+  "last_updated": "2026-06-17 11:46 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,26 +11,26 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 138,
-      "wow_change": 1,
+      "total_interventions": 140,
+      "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-06-13",
         "previous": "2026-06-06"
       },
       "evaluation": {
-        "harmful": 97,
-        "liberalising": 41
+        "harmful": 98,
+        "liberalising": 42
       },
       "policy_groups": {
         "export_controls": 34,
-        "import_barriers": 32,
+        "import_barriers": 34,
         "domestic_subsidies": 45,
         "export_subsidies": 4,
         "sanctions": 12,
         "other": 11
       },
       "implementing": {
-        "MEX": 16,
+        "MEX": 17,
         "IND": 16,
         "IRL": 14,
         "FRA": 14,
@@ -74,13 +74,20 @@
         "AUS": 2,
         "MYS": 2,
         "IRQ": 2,
+        "PAK": 2,
         "ZAF": 1,
         "SRB": 1,
-        "PAK": 1,
         "PER": 1,
         "THA": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-06-12",
+          "title": "Mexico: Changes in the tax credits under the fuel subsidy scheme (13 to 19 June 2026)",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156484?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-06-11",
           "title": "United States of America: State Department sanctions Cuba's state-owned oil and gas company",
@@ -108,13 +115,6 @@
           "intervention_type": "Export ban",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/156066?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-30",
-          "title": "India: Reduction of special additional excise duty on export of aviation turbine fuel (30 May 2026)",
-          "intervention_type": "Export tax",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155989?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
