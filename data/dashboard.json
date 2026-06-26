@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19 11:21 UTC",
+  "last_updated": "2026-06-26 10:22 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,68 +11,68 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 140,
-      "wow_change": 2,
+      "total_interventions": 149,
+      "wow_change": 4,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
-        "harmful": 98,
-        "liberalising": 42
+        "harmful": 105,
+        "liberalising": 44
       },
       "policy_groups": {
-        "export_controls": 34,
-        "import_barriers": 34,
-        "domestic_subsidies": 45,
+        "export_controls": 36,
+        "import_barriers": 36,
+        "domestic_subsidies": 47,
         "export_subsidies": 4,
-        "sanctions": 12,
-        "other": 11
+        "sanctions": 14,
+        "other": 12
       },
       "implementing": {
-        "MEX": 17,
-        "IND": 16,
-        "IRL": 14,
-        "FRA": 14,
-        "ITA": 13,
-        "DNK": 13,
-        "HUN": 13,
-        "USA": 13,
-        "SVK": 12,
-        "DEU": 12,
-        "ROU": 12,
-        "SVN": 12,
-        "ESP": 12,
-        "BGR": 12,
-        "GRC": 12,
-        "FIN": 11,
-        "SWE": 11,
-        "PRT": 11,
-        "LVA": 11,
-        "EST": 11,
-        "BEL": 11,
-        "LUX": 11,
-        "NLD": 11,
-        "LTU": 11,
-        "POL": 11,
-        "CZE": 11,
-        "CYP": 11,
-        "AUT": 11,
-        "HRV": 11,
-        "MLT": 11,
+        "IND": 19,
+        "MEX": 18,
+        "IRL": 15,
+        "FRA": 15,
+        "USA": 15,
+        "ITA": 14,
+        "DNK": 14,
+        "HUN": 14,
+        "SVK": 13,
+        "DEU": 13,
+        "ROU": 13,
+        "SVN": 13,
+        "ESP": 13,
+        "GRC": 13,
+        "BGR": 13,
+        "FIN": 13,
+        "PRT": 12,
+        "SWE": 12,
+        "LVA": 12,
+        "EST": 12,
+        "BEL": 12,
+        "LUX": 12,
+        "LTU": 12,
+        "POL": 12,
+        "CZE": 12,
+        "CYP": 12,
+        "AUT": 12,
+        "HRV": 12,
+        "MLT": 12,
+        "NLD": 12,
         "BRA": 10,
         "KOR": 9,
+        "GBR": 5,
         "CHE": 5,
         "RUS": 5,
         "CHN": 4,
         "JPN": 4,
-        "GBR": 4,
         "VNM": 3,
         "PHL": 3,
         "CAN": 3,
+        "MYS": 2,
         "TWN": 2,
         "AUS": 2,
-        "MYS": 2,
         "IRQ": 2,
         "PAK": 2,
         "ZAF": 1,
@@ -82,39 +82,39 @@
       },
       "latest_interventions": [
         {
-          "date": "2026-06-12",
-          "title": "Mexico: Changes in the tax credits under the fuel subsidy scheme (13 to 19 June 2026)",
-          "intervention_type": "Internal taxation of imports",
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
           "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/156484?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+          "url": "https://globaltradealert.org/intervention/156688?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
-          "date": "2026-06-11",
-          "title": "United States of America: State Department sanctions Cuba's state-owned oil and gas company",
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "Mexico: Lower tax credits under the fuel subsidy scheme (20 to 26 June 2026)",
+          "intervention_type": "Internal taxation of imports",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156665?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "EU: Sanctions against several entities due to their alleged link with Russia\u2019s war against Ukraine",
           "intervention_type": "Controls on commercial transactions and investment instruments",
           "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/156453?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+          "url": "https://globaltradealert.org/intervention/156492?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
-          "date": "2026-06-05",
-          "title": "Mexico: Lower tax credits under the fuel subsidy scheme (6 to 12 June 2026)",
-          "intervention_type": "Internal taxation of imports",
+          "date": "2026-06-15",
+          "title": "India: Special Additional Excise Duty on the export of diesel increased",
+          "intervention_type": "Export tax",
           "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/156325?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "Philippines: President approves 2026 Strategic Investment Priority Plan",
-          "intervention_type": "Tax or social insurance relief",
-          "gta_evaluation": "Amber",
-          "url": "https://globaltradealert.org/intervention/156247?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Russia: Temporary export ban on jet fuel (2 June - 30 November 2026)",
-          "intervention_type": "Export ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/156066?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+          "url": "https://globaltradealert.org/intervention/156515?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -128,64 +128,79 @@
         310530
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
-      "total_interventions": 27,
+      "total_interventions": 31,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
-        "harmful": 15,
-        "liberalising": 12
+        "harmful": 17,
+        "liberalising": 14
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 10,
-        "domestic_subsidies": 9,
+        "import_barriers": 11,
+        "domestic_subsidies": 11,
         "export_subsidies": 2,
-        "sanctions": 0,
+        "sanctions": 1,
         "other": 2
       },
       "implementing": {
         "IND": 6,
         "CHN": 4,
-        "NLD": 4,
+        "MLT": 4,
         "SVN": 4,
+        "NLD": 4,
         "LTU": 4,
         "HUN": 4,
         "ESP": 4,
         "EST": 4,
         "LVA": 4,
         "SWE": 4,
-        "GRC": 4,
+        "AUT": 4,
         "PRT": 4,
         "BGR": 4,
         "ITA": 4,
         "BEL": 4,
-        "AUT": 4,
         "CZE": 4,
+        "ROU": 4,
         "DNK": 4,
         "POL": 4,
         "FRA": 4,
         "CYP": 4,
         "DEU": 4,
-        "ROU": 4,
+        "LUX": 4,
         "HRV": 4,
         "SVK": 4,
         "FIN": 4,
-        "LUX": 4,
-        "MLT": 4,
+        "GRC": 4,
         "IRL": 4,
+        "USA": 3,
         "RUS": 2,
         "BRA": 2,
-        "TUR": 2,
         "MYS": 2,
+        "TUR": 2,
         "AUS": 2,
+        "MEX": 2,
         "EGY": 1,
-        "IRQ": 1,
-        "USA": 1
+        "IRQ": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156688?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-29",
           "title": "EU: Autonomous tariff quotas suspending import duties on nitrogen-based fertilisers and inputs",
@@ -206,20 +221,6 @@
           "intervention_type": "Import tariff quota",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155511?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-13",
-          "title": "India: Scheme approved for the promotion of surface coal and lignite gasification projects",
-          "intervention_type": "State aid, unspecified",
-          "gta_evaluation": "Amber",
-          "url": "https://globaltradealert.org/intervention/155392?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -232,8 +233,8 @@
       "total_interventions": 16,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
         "harmful": 10,
@@ -303,37 +304,52 @@
         290511
       ],
       "description": "Produced mainly from natural gas feedstocks; Middle East production and export infrastructure highly exposed to Gulf disruptions.",
-      "total_interventions": 21,
+      "total_interventions": 24,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
-        "harmful": 15,
-        "liberalising": 6
+        "harmful": 16,
+        "liberalising": 8
       },
       "policy_groups": {
-        "export_controls": 1,
-        "import_barriers": 10,
+        "export_controls": 2,
+        "import_barriers": 11,
         "domestic_subsidies": 6,
         "export_subsidies": 2,
-        "sanctions": 0,
+        "sanctions": 1,
         "other": 2
       },
       "implementing": {
+        "USA": 7,
         "IND": 5,
-        "USA": 5,
         "DNK": 2,
         "BRA": 2,
         "MYS": 2,
         "CHN": 1,
+        "IRN": 1,
         "ESP": 1,
         "GBR": 1,
         "FRA": 1,
         "IRQ": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156688?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-19",
           "title": "United Kingdom: Government expands Russia sanctions regime",
@@ -354,20 +370,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -379,29 +381,29 @@
         380110
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
-      "total_interventions": 40,
+      "total_interventions": 43,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
-        "harmful": 31,
-        "liberalising": 9
+        "harmful": 32,
+        "liberalising": 11
       },
       "policy_groups": {
-        "export_controls": 7,
-        "import_barriers": 11,
+        "export_controls": 8,
+        "import_barriers": 12,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
-        "sanctions": 3,
+        "sanctions": 4,
         "other": 8
       },
       "implementing": {
-        "USA": 18,
+        "USA": 20,
         "ESP": 6,
-        "LUX": 5,
-        "NLD": 5,
+        "GRC": 5,
+        "DEU": 5,
         "LTU": 5,
         "HUN": 5,
         "MLT": 5,
@@ -420,14 +422,14 @@
         "POL": 5,
         "FRA": 5,
         "CYP": 5,
-        "DEU": 5,
-        "GRC": 5,
+        "NLD": 5,
+        "LUX": 5,
         "HRV": 5,
         "SVK": 5,
         "FIN": 5,
         "LVA": 5,
+        "CHN": 3,
         "IND": 3,
-        "CHN": 2,
         "MYS": 2,
         "CHE": 2,
         "TWN": 2,
@@ -437,6 +439,27 @@
         "IRQ": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-06-22",
+          "title": "China: Government adds ten US entities to Export Control List (June 2026)",
+          "intervention_type": "Export ban",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156663?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156688?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-21",
           "title": "Switzerland: Further sanctions in response to Russia\u2019s invasion of Ukraine (May 2026)",
@@ -450,27 +473,6 @@
           "intervention_type": "Export ban",
           "gta_evaluation": "Red",
           "url": "https://globaltradealert.org/intervention/155639?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155355?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "China: Implementation of zero-tariff treatment for imports from 20 African non-LDC countries",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-24",
-          "title": "China: Government adds seven EU entities to the Export Control List (April 2026)",
-          "intervention_type": "Export ban",
-          "gta_evaluation": "Red",
-          "url": "https://globaltradealert.org/intervention/154762?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -483,8 +485,8 @@
       "total_interventions": 26,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
         "harmful": 20,
@@ -583,8 +585,8 @@
       "total_interventions": 29,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
         "harmful": 22,
@@ -682,33 +684,49 @@
         290531
       ],
       "description": "Petrochemical derivative produced from ethylene; exposed to disruptions in naphtha and gas-based cracker feedstocks.",
-      "total_interventions": 15,
+      "total_interventions": 19,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
-        "harmful": 9,
-        "liberalising": 6
+        "harmful": 11,
+        "liberalising": 8
       },
       "policy_groups": {
-        "export_controls": 0,
-        "import_barriers": 10,
-        "domestic_subsidies": 1,
+        "export_controls": 1,
+        "import_barriers": 11,
+        "domestic_subsidies": 2,
         "export_subsidies": 2,
-        "sanctions": 0,
+        "sanctions": 1,
         "other": 2
       },
       "implementing": {
-        "USA": 5,
+        "USA": 7,
         "IND": 4,
         "BRA": 2,
         "MYS": 2,
         "CHN": 1,
+        "MEX": 1,
+        "IRN": 1,
         "IRQ": 1
       },
       "latest_interventions": [
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Controls on commercial transactions and investment instruments",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156688?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "United States of America: Treasury authorizes transactions involving Iranian-origin petroleum products through August 2026",
+          "intervention_type": "Import ban",
+          "gta_evaluation": "Green",
+          "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
         {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
@@ -729,20 +747,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
-          "intervention_type": "Internal taxation of imports",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154703?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Iraq: Reopening of Rabia\u2013Yarubiyah border crossing for trade with Syria",
-          "intervention_type": "Import-related non-tariff measure, nes",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155580?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -756,8 +760,8 @@
       "total_interventions": 20,
       "wow_change": 0,
       "reference_saturdays": {
-        "current": "2026-06-13",
-        "previous": "2026-06-06"
+        "current": "2026-06-20",
+        "previous": "2026-06-13"
       },
       "evaluation": {
         "harmful": 15,
