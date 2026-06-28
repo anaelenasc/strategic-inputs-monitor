@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27 09:32 UTC",
+  "last_updated": "2026-06-28 09:56 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -201,25 +201,25 @@
           "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
+          "date": "2026-06-05",
+          "title": "Mexico: MXN 93 billion for the production of petrochemicals and fertilisers in Veracruz",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156433?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Mexico: MXN 93 billion for the production of petrochemicals and fertilisers in Veracruz",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156434?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-29",
           "title": "EU: Autonomous tariff quotas suspending import duties on nitrogen-based fertilisers and inputs",
           "intervention_type": "Import tariff quota",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/155897?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "EU: Commission unveils its \"Fertiliser Action Plan\"  to increase the availability, autonomy and resilience of fertilisers",
-          "intervention_type": "State aid, unspecified",
-          "gta_evaluation": "Amber",
-          "url": "https://globaltradealert.org/intervention/155510?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "EU: Commission unveils its \"Fertiliser Action Plan\"  to increase the availability, autonomy and resilience of fertilisers",
-          "intervention_type": "Import tariff quota",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/155511?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
@@ -727,6 +727,13 @@
           "url": "https://globaltradealert.org/intervention/156690?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         },
         {
+          "date": "2026-06-05",
+          "title": "Mexico: MXN 93 billion for the production of petrochemicals and fertilisers in Veracruz",
+          "intervention_type": "State aid, unspecified",
+          "gta_evaluation": "Red",
+          "url": "https://globaltradealert.org/intervention/156428?key=6b02fe82-d833-4cff-bee2-738898005e4d"
+        },
+        {
           "date": "2026-05-12",
           "title": "Brazil: Elimination of import duties on international mail orders up to USD 50",
           "intervention_type": "Import tariff",
@@ -739,13 +746,6 @@
           "intervention_type": "Import tariff",
           "gta_evaluation": "Green",
           "url": "https://globaltradealert.org/intervention/154872?key=6b02fe82-d833-4cff-bee2-738898005e4d"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Malaysia: Government measures to support SMEs amid the global energy crisis",
-          "intervention_type": "Import tariff",
-          "gta_evaluation": "Green",
-          "url": "https://globaltradealert.org/intervention/154701?key=6b02fe82-d833-4cff-bee2-738898005e4d"
         }
       ]
     },
