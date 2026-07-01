@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 10:31 UTC",
+  "last_updated": "2026-07-01 10:40 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,18 +11,18 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 151,
+      "total_interventions": 153,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 105,
-        "liberalising": 46
+        "harmful": 106,
+        "liberalising": 47
       },
       "policy_groups": {
-        "export_controls": 38,
+        "export_controls": 40,
         "import_barriers": 36,
         "domestic_subsidies": 47,
         "export_subsidies": 4,
@@ -67,11 +67,11 @@
         "GBR": 5,
         "CHE": 5,
         "JPN": 4,
+        "TWN": 4,
         "VNM": 3,
         "PHL": 3,
         "CAN": 3,
         "MYS": 2,
-        "TWN": 2,
         "AUS": 2,
         "IRQ": 2,
         "PAK": 2,
@@ -381,18 +381,18 @@
         380110
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
-      "total_interventions": 45,
+      "total_interventions": 47,
       "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 34,
-        "liberalising": 11
+        "harmful": 35,
+        "liberalising": 12
       },
       "policy_groups": {
-        "export_controls": 10,
+        "export_controls": 12,
         "import_barriers": 12,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
@@ -429,11 +429,11 @@
         "FIN": 5,
         "NLD": 5,
         "IRL": 5,
+        "TWN": 4,
         "IND": 3,
         "CAN": 2,
         "MYS": 2,
         "CHE": 2,
-        "TWN": 2,
         "BRA": 1,
         "IRQ": 1,
         "GBR": 1
@@ -482,18 +482,18 @@
         281820
       ],
       "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions.",
-      "total_interventions": 26,
+      "total_interventions": 28,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 20,
-        "liberalising": 6
+        "harmful": 21,
+        "liberalising": 7
       },
       "policy_groups": {
-        "export_controls": 6,
+        "export_controls": 8,
         "import_barriers": 5,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
@@ -528,9 +528,9 @@
         "HRV": 5,
         "SVK": 5,
         "HUN": 5,
+        "TWN": 4,
         "IND": 3,
         "BRA": 2,
-        "TWN": 2,
         "GBR": 2,
         "MYS": 2,
         "CHE": 2,
@@ -582,18 +582,18 @@
         280429
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
-      "total_interventions": 29,
+      "total_interventions": 31,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 22,
-        "liberalising": 7
+        "harmful": 23,
+        "liberalising": 8
       },
       "policy_groups": {
-        "export_controls": 7,
+        "export_controls": 9,
         "import_barriers": 6,
         "domestic_subsidies": 10,
         "export_subsidies": 2,
@@ -628,8 +628,8 @@
         "FIN": 5,
         "HRV": 5,
         "HUN": 5,
+        "TWN": 4,
         "IND": 3,
-        "TWN": 2,
         "USA": 2,
         "GBR": 2,
         "MYS": 2,
