@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01 10:40 UTC",
+  "last_updated": "2026-07-02 10:09 UTC",
   "cutoff_date": "2026-02-28",
   "overview": "This dashboard tracks trade policy interventions affecting strategic input commodities with direct or indirect exposure to the 2026 Iran\u2013Hormuz crisis. All indicators count interventions announced since 28 February 2026, as recorded in the Global Trade Alert database. Data is refreshed daily.",
   "products": [
@@ -11,19 +11,19 @@
         271019
       ],
       "description": "Direct exposure to crude supply disruptions, reduced refinery throughput, and constrained petroleum product exports through the Gulf/Hormuz corridor.",
-      "total_interventions": 153,
+      "total_interventions": 154,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 106,
+        "harmful": 107,
         "liberalising": 47
       },
       "policy_groups": {
         "export_controls": 40,
-        "import_barriers": 36,
+        "import_barriers": 37,
         "domestic_subsidies": 47,
         "export_subsidies": 4,
         "sanctions": 14,
@@ -70,9 +70,9 @@
         "TWN": 4,
         "VNM": 3,
         "PHL": 3,
+        "AUS": 3,
         "CAN": 3,
         "MYS": 2,
-        "AUS": 2,
         "IRQ": 2,
         "PAK": 2,
         "ZAF": 1,
@@ -128,19 +128,19 @@
         310530
       ],
       "description": "Strong dependence on natural gas-derived ammonia and refinery-derived sulphur used in urea, ammonium sulphate, phosphates, DAP/MAP, and NPK production.",
-      "total_interventions": 31,
+      "total_interventions": 32,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 17,
+        "harmful": 18,
         "liberalising": 14
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 11,
+        "import_barriers": 12,
         "domestic_subsidies": 11,
         "export_subsidies": 2,
         "sanctions": 1,
@@ -177,11 +177,11 @@
         "GRC": 4,
         "IRL": 4,
         "USA": 3,
+        "AUS": 3,
         "RUS": 2,
         "BRA": 2,
         "MYS": 2,
         "TUR": 2,
-        "AUS": 2,
         "MEX": 2,
         "EGY": 1,
         "IRQ": 1
@@ -230,19 +230,19 @@
         250300
       ],
       "description": "Sulphur is primarily recovered from oil refining and gas processing; reduced refinery operations directly constrain supply.",
-      "total_interventions": 17,
+      "total_interventions": 18,
       "wow_change": 1,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 11,
+        "harmful": 12,
         "liberalising": 6
       },
       "policy_groups": {
         "export_controls": 4,
-        "import_barriers": 9,
+        "import_barriers": 10,
         "domestic_subsidies": 1,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -254,6 +254,7 @@
         "RUS": 2,
         "MYS": 2,
         "CHN": 1,
+        "AUS": 1,
         "GBR": 1,
         "PHL": 1,
         "TUR": 1,
@@ -304,19 +305,19 @@
         290511
       ],
       "description": "Produced mainly from natural gas feedstocks; Middle East production and export infrastructure highly exposed to Gulf disruptions.",
-      "total_interventions": 24,
+      "total_interventions": 25,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 16,
+        "harmful": 17,
         "liberalising": 8
       },
       "policy_groups": {
         "export_controls": 2,
-        "import_barriers": 11,
+        "import_barriers": 12,
         "domestic_subsidies": 6,
         "export_subsidies": 2,
         "sanctions": 1,
@@ -329,6 +330,7 @@
         "BRA": 2,
         "MYS": 2,
         "CHN": 1,
+        "AUS": 1,
         "IRN": 1,
         "ESP": 1,
         "GBR": 1,
@@ -381,19 +383,19 @@
         380110
       ],
       "description": "Petroleum coke-based graphite feedstocks depend on refinery output and delayed coking capacity.",
-      "total_interventions": 47,
+      "total_interventions": 48,
       "wow_change": 3,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 35,
+        "harmful": 36,
         "liberalising": 12
       },
       "policy_groups": {
         "export_controls": 12,
-        "import_barriers": 12,
+        "import_barriers": 13,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 4,
@@ -403,19 +405,20 @@
         "USA": 20,
         "ESP": 6,
         "CHN": 5,
-        "GRC": 5,
+        "NLD": 5,
+        "SVN": 5,
         "LTU": 5,
         "HUN": 5,
         "LUX": 5,
         "MLT": 5,
         "EST": 5,
         "LVA": 5,
-        "SWE": 5,
-        "SVN": 5,
-        "PRT": 5,
         "AUT": 5,
-        "BGR": 5,
+        "IRL": 5,
+        "PRT": 5,
         "CZE": 5,
+        "BGR": 5,
+        "ROU": 5,
         "BEL": 5,
         "ITA": 5,
         "DNK": 5,
@@ -423,20 +426,20 @@
         "FRA": 5,
         "CYP": 5,
         "DEU": 5,
-        "ROU": 5,
+        "GRC": 5,
         "HRV": 5,
         "SVK": 5,
         "FIN": 5,
-        "NLD": 5,
-        "IRL": 5,
+        "SWE": 5,
         "TWN": 4,
         "IND": 3,
         "CAN": 2,
         "MYS": 2,
         "CHE": 2,
         "BRA": 1,
+        "GBR": 1,
         "IRQ": 1,
-        "GBR": 1
+        "AUS": 1
       },
       "latest_interventions": [
         {
@@ -482,19 +485,19 @@
         281820
       ],
       "description": "Energy-intensive refining process indirectly exposed to higher fuel and gas prices caused by regional energy disruptions.",
-      "total_interventions": 28,
+      "total_interventions": 29,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 21,
+        "harmful": 22,
         "liberalising": 7
       },
       "policy_groups": {
         "export_controls": 8,
-        "import_barriers": 5,
+        "import_barriers": 6,
         "domestic_subsidies": 9,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -502,32 +505,32 @@
       },
       "implementing": {
         "ESP": 6,
-        "AUT": 6,
         "DEU": 6,
-        "SVN": 6,
+        "AUT": 6,
         "BGR": 6,
-        "MLT": 5,
-        "FIN": 5,
-        "ITA": 5,
+        "SVN": 6,
+        "NLD": 5,
+        "HUN": 5,
+        "LTU": 5,
+        "ROU": 5,
         "EST": 5,
         "LVA": 5,
         "SWE": 5,
         "IRL": 5,
         "PRT": 5,
-        "CZE": 5,
-        "LTU": 5,
-        "ROU": 5,
-        "BEL": 5,
         "LUX": 5,
+        "HRV": 5,
+        "BEL": 5,
+        "MLT": 5,
         "DNK": 5,
         "POL": 5,
         "FRA": 5,
         "CYP": 5,
+        "ITA": 5,
         "GRC": 5,
-        "NLD": 5,
-        "HRV": 5,
+        "CZE": 5,
         "SVK": 5,
-        "HUN": 5,
+        "FIN": 5,
         "TWN": 4,
         "IND": 3,
         "BRA": 2,
@@ -536,6 +539,7 @@
         "CHE": 2,
         "USA": 1,
         "IRQ": 1,
+        "AUS": 1,
         "CHN": 1
       },
       "latest_interventions": [
@@ -582,19 +586,19 @@
         280429
       ],
       "description": "Significant global supply originates from Qatar and Gulf gas-processing infrastructure dependent on Hormuz shipping routes.",
-      "total_interventions": 31,
+      "total_interventions": 32,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 23,
+        "harmful": 24,
         "liberalising": 8
       },
       "policy_groups": {
         "export_controls": 9,
-        "import_barriers": 6,
+        "import_barriers": 7,
         "domestic_subsidies": 10,
         "export_subsidies": 2,
         "sanctions": 0,
@@ -602,43 +606,44 @@
       },
       "implementing": {
         "ESP": 6,
-        "AUT": 6,
         "DEU": 6,
-        "SVN": 6,
+        "AUT": 6,
         "BGR": 6,
-        "MLT": 5,
-        "SVK": 5,
-        "ITA": 5,
+        "SVN": 6,
+        "NLD": 5,
+        "HUN": 5,
+        "LTU": 5,
+        "CZE": 5,
         "EST": 5,
         "LVA": 5,
         "SWE": 5,
         "IRL": 5,
         "PRT": 5,
-        "CZE": 5,
-        "LTU": 5,
         "ROU": 5,
         "BEL": 5,
         "LUX": 5,
-        "GRC": 5,
+        "MLT": 5,
         "DNK": 5,
         "POL": 5,
         "FRA": 5,
         "CYP": 5,
-        "NLD": 5,
-        "FIN": 5,
+        "ITA": 5,
+        "GRC": 5,
         "HRV": 5,
-        "HUN": 5,
+        "SVK": 5,
+        "FIN": 5,
         "TWN": 4,
         "IND": 3,
+        "CHN": 2,
         "USA": 2,
         "GBR": 2,
-        "MYS": 2,
         "CHE": 2,
-        "CHN": 2,
-        "BRA": 1,
+        "MYS": 2,
         "RUS": 1,
-        "PHL": 1,
-        "IRQ": 1
+        "BRA": 1,
+        "IRQ": 1,
+        "AUS": 1,
+        "PHL": 1
       },
       "latest_interventions": [
         {
@@ -684,19 +689,19 @@
         290531
       ],
       "description": "Petrochemical derivative produced from ethylene; exposed to disruptions in naphtha and gas-based cracker feedstocks.",
-      "total_interventions": 19,
+      "total_interventions": 20,
       "wow_change": 2,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 11,
+        "harmful": 12,
         "liberalising": 8
       },
       "policy_groups": {
         "export_controls": 1,
-        "import_barriers": 11,
+        "import_barriers": 12,
         "domestic_subsidies": 2,
         "export_subsidies": 2,
         "sanctions": 1,
@@ -708,6 +713,7 @@
         "BRA": 2,
         "MYS": 2,
         "CHN": 1,
+        "AUS": 1,
         "MEX": 1,
         "IRN": 1,
         "IRQ": 1
@@ -757,19 +763,19 @@
         260112
       ],
       "description": "Primarily indirect exposure via higher bunker/freight costs and weaker steel-sector demand rather than refinery dependence.",
-      "total_interventions": 20,
+      "total_interventions": 21,
       "wow_change": 0,
       "reference_saturdays": {
         "current": "2026-06-27",
         "previous": "2026-06-20"
       },
       "evaluation": {
-        "harmful": 15,
+        "harmful": 16,
         "liberalising": 5
       },
       "policy_groups": {
         "export_controls": 1,
-        "import_barriers": 10,
+        "import_barriers": 11,
         "domestic_subsidies": 2,
         "export_subsidies": 3,
         "sanctions": 1,
@@ -780,39 +786,40 @@
         "GBR": 3,
         "MLT": 2,
         "LUX": 2,
+        "LTU": 2,
         "HUN": 2,
         "ESP": 2,
         "EST": 2,
         "LVA": 2,
         "SWE": 2,
         "IRL": 2,
-        "PRT": 2,
-        "LTU": 2,
+        "SVN": 2,
+        "GRC": 2,
         "BGR": 2,
         "IND": 2,
         "BEL": 2,
         "ITA": 2,
-        "GRC": 2,
+        "AUT": 2,
         "DNK": 2,
         "POL": 2,
         "FRA": 2,
         "CYP": 2,
         "DEU": 2,
-        "AUT": 2,
+        "CZE": 2,
         "HRV": 2,
         "SVK": 2,
         "FIN": 2,
-        "CZE": 2,
-        "NLD": 2,
         "ROU": 2,
+        "NLD": 2,
         "MYS": 2,
-        "SVN": 2,
+        "PRT": 2,
         "CHN": 1,
         "JPN": 1,
         "RUS": 1,
-        "IRQ": 1,
         "BRA": 1,
-        "PHL": 1
+        "IRQ": 1,
+        "PHL": 1,
+        "AUS": 1
       },
       "latest_interventions": [
         {
